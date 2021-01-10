@@ -16,6 +16,7 @@
     float: right;
     margin: 15px auto;
     padding-right: 550px;
+    
 
 }
 
@@ -24,14 +25,16 @@
     background-color: white;
     width: 800px;
     height: 100px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     border-radius: 15px;
     margin: 15px auto;
+
 }
 
 hr.rounded {
     Border-top: 8px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 800px;
 }
 
