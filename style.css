@@ -1,0 +1,60 @@
+.banner-header {
+    color: white;
+    background-color: green;
+    width: 800px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px auto;
+    font-size: 60px;
+    z-index: 0;
+}
+
+.photo {
+    width: 220px;
+    height: 250px;
+    float: right;
+    margin: 15px auto;
+    padding-right: 550px;
+
+}
+
+.cit {
+    color: black;
+    background-color: white;
+    width: 800px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+hr.rounded {
+    Border-top: 8px solid black;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.week {
+    color: black;
+    background-color: white;
+    width: 800px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px auto;
+
+}
+
+footer {
+    color: white;
+    background-color: green;
+    width: 800px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px auto;
+    font-size: smaller;
+    text-align: center;
+
+}
