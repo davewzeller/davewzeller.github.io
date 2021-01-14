@@ -1,0 +1,42 @@
+
+header{
+    color: #EBA213;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #4791FF ;
+    border-radius: 15px;
+    font-size: 50px;
+    padding: 10px;
+    margin: 15px auto;
+    min-width: 50px;
+
+   
+   
+}
+
+.homepage {
+    font-size: 20px;
+}
+div {
+    background-color: #EBA213;
+    min-width: 50px;
+    max-width: 365px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+h2, h3, h5, p{
+    color: #06439E;
+}
+
+
+footer{
+    color: #1051B3;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #4791FF;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 15px auto;
+}
