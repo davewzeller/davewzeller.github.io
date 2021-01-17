@@ -1,4 +1,9 @@
-
+*{
+    box-sizing: border-box;
+    columns: 3 auto;
+    grid-template-rows: 3;
+    
+}
 header{
     color: #EBA213;
     font-family: 'Merriweather Sans', sans-serif;
@@ -17,13 +22,17 @@ header{
     font-size: 20px;
 }
 div {
+    display: block;
     background-color: #EBA213;
     min-width: 50px;
     max-width: 365px;
     border-radius: 15px;
     padding: 10px;
     margin: 15px auto;
+
+   
 }
+
 
 h2, h3, h5, p{
     color: #06439E;

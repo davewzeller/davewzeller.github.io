@@ -1,0 +1,6 @@
+@media (min-width: 780px) {
+
+    div {
+        columns: 2;
+    }
+}
