@@ -1,22 +1,14 @@
-@media (min-width: 400px) {
+@media (min-width: 768 px) {
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    header{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-start: 0;
-        grid-column-end: span 2;
-        font-size: medium;
-        border-radius: 20px;
-        padding: 10px;
-        margin: 15px auto;
-        min-width: 395px;
-        color: white;
+    div{
+        width: 1fr;
     }
+
+    
     .Fitts{
         grid-column-start: 1;
         grid-column-end: span 1;

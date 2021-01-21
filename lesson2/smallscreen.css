@@ -1,8 +1,11 @@
-@media (min-width: 40px) {
+@media (min-with: 414px) {
     main{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+    }
+    div{
+        min-width: 1fr;
     }
     header{
         display: grid;
