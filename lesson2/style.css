@@ -1,0 +1,87 @@
+
+header{
+      
+        font-size: x-large;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 15px auto;
+        background-color: blue;
+        text-align: left;
+      
+
+   
+   
+}
+p{
+    color: white;
+    
+}
+.homepage {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+
+div {
+    
+    background-color: #EBA213;
+    min-width: 1fr;
+    max-width: 1fr;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 1px auto;
+
+   
+}
+
+
+  /*  .Fitts{
+        grid-column-start: 1;
+        grid-column-end: span 1;
+        grid-row-start:1;
+        grid-row-end: span 1;
+      
+        
+       
+    }
+    
+    .WhiteSpace{ 
+        grid-column-start:2;
+        grid-column-end: span 1;
+        grid-row-start:1;
+        grid-row-end: span 1;
+       
+    }
+    
+    .Hicks{
+        grid-column-start:3;
+        grid-column-end: span 1;
+        grid-row-start: 1;
+        grid-row-end: span 1;
+        
+    }   */
+    
+
+
+h2, h3, h5{
+    color:  #1051B3 ;
+}
+
+
+footer{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #4791FF;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+    display: grid;
+    text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-start: 0;
+        grid-column-end: span 2;
+        margin: 15px auto;
+
+}
