@@ -63,7 +63,7 @@ nav{
 }
 .main-nav li{
     
-  
+
    
     float: left;
 
@@ -80,6 +80,9 @@ nav{
     display: inline-flex;
     text-decoration: none;
 
+}
+a:hover{
+    color:#F2BD2C
 }
 img.site{
     width: 175px;
