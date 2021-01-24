@@ -42,7 +42,7 @@
         padding: 12px;
         /*display: inline-flex;*/
         text-decoration: none;
-    
+        list-style:none;
     }
     a:hover{
         color:#F2BD2C
@@ -58,5 +58,8 @@
         padding: 10px;
         margin: 15px auto;
         min-width: 355px;
+    }
+    footer p {
+        padding-right: 35px;
     }
 }

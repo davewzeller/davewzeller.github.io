@@ -36,13 +36,9 @@ header{
 
 
   
-/*header h4{
-    list-style: none;
-    display: block;
-    background-color: #333533ff;
-    color: black;
-    
-}*/
+div{
+    padding: 20px;
+}
 nav{
     background-color: #333533ff;
     display:flex;
@@ -121,6 +117,7 @@ footer{
     background-color: #cfdbd5;
     color: black;
     padding:25px;
+    padding-right: 5px;
 
 }
 h1{
