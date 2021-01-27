@@ -1,0 +1,13 @@
+@media only screen and (min-width: 760px) and (max-width:991px) {
+    h1{
+        font-size: 25px;
+    }
+    .tentPhoto{
+        width: 125px;
+        height: 170px;
+        float: right;
+        margin: 15px auto;
+        margin-top: 10px;
+        background-color: #F2BD2C;
+    }
+  } 

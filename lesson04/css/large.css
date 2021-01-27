@@ -27,7 +27,7 @@ header{
 }
 nav{
     background-color: #333533ff;
-    display:flex; 
+    display:flex;
 
     
 }
@@ -61,6 +61,7 @@ nav a{
 }
 li:hover{
     color:#F2BD2C
+    
 }
 h1{
     font-family: signika;
