@@ -1,51 +1,70 @@
-@media (min-width: 40px) and (max-width:640px){
-    main{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-    header{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-start: 0;
-        grid-column-end: span 2;
-        font-size: medium;
-        border-radius: 20px;
-        padding: 10px;
-        margin: 15px auto;
-        min-width: 355px;
-    }
-    .Fitts{
-        grid-column-start: 1;
-        grid-column-end: span 1;
-        grid-row-start:1;
-        grid-row-end: span 1;
-       
-    }
-    
-    .WhiteSpace{ 
-        grid-column-start:1;
-        grid-column-end: span 1;
-        grid-row-start:2;
-        grid-row-end: span 1;
-    }
-    
-    .Hicks{
-        grid-column-start:1;
-        grid-column-end: span 1;
-        grid-row-start: 3;
-        grid-row-end: span 1;
-    }   
-    footer {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-start: 0;
-        grid-column-end: span 2;
-        border-radius: 20px;
-        padding: 10px;
-        margin: 15px auto;
-        min-width: 355px;
-    }
+@media only screen and (min-width: 100px) and (max-width: 759px) {
+  
+  h1{
+    font-family: signika;
+    font-weight: bold;
+    font-weight: 300;
+    font-size: 18px;
+
 }
+.tentPhoto{
+    width: 50px;
+    height: 75px;
+    float: right;
+    margin: 15px auto;
+    margin-top: 10px;
+    background-color: #cfdbd5;
+    
+    
+}
+h3{
+    font-weight: 200;
+    font-size: 10px;
+}
+h4{
+font-family: signika;
+font-weight: semi;
+font-weight: 100;
+font-size: 10px;
+}
+footer{
+    font-weight: 200;
+    font-size: 15px;
+}
+nav{
+    margin:0 auto;
+    max-width: 759px;
+
+    }
+.navigation{
+    list-style: none;
+    padding: 0;
+}
+.navigation li:first-child{
+    display: block;
+}
+nav li{
+     
+    display: none;
+    float: none;
+   /*display: block;*/
+    text-align: left;
+    font-size: 15px;
+    padding: 5px 9px;
+}
+.navigation a{
+   display: block;
+   padding: 5px;
+    text-align: left;
+
+}
+.navigation a:hover{
+    color: #F2BD2C;
+    background-color: black;
+
+}
+.responsive li {
+	display: block;
+}
+}   
+

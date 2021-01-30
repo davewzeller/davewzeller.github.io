@@ -18,12 +18,17 @@ header{
     height: 200px;
     float: right;
     margin: 15px auto;
-    background-color: #F2BD2C;
+    background-color: #cfdbd5;
 }
 .homepage{
     text-emphasis: none;
     color: black;
     text-decoration: none;
+}
+.active{
+    background-color: black;
+    color:#F2BD2C;
+
 }
 nav{
     background-color: #333533ff;
@@ -59,9 +64,10 @@ nav a{
     text-decoration: none;
 
 }
-li:hover{
-    color:#F2BD2C
-    
+.navigation a:hover{
+    color: #F2BD2C;
+    background-color: black;
+
 }
 h1{
     font-family: signika;

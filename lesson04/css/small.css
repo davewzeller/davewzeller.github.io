@@ -13,11 +13,13 @@
     float: right;
     margin: 15px auto;
     margin-top: 10px;
-    background-color: #F2BD2C;
+    background-color: #cfdbd5;
+    
+    
 }
 h3{
     font-weight: 200;
-    font-size: 15px;
+    font-size: 10px;
 }
 h4{
 font-family: signika;
@@ -29,14 +31,40 @@ footer{
     font-weight: 200;
     font-size: 15px;
 }
+nav{
+    margin:0 auto;
+    max-width: 759px;
+
+    }
+.navigation{
+    list-style: none;
+    padding: 0;
+}
+.navigation li:first-child{
+    display: block;
+}
 nav li{
      
+    display: none;
     float: none;
-    display: block;
+   /*display: block;*/
     text-align: left;
     font-size: 15px;
     padding: 5px 9px;
 }
+.navigation a{
+   display: block;
+   padding: 5px;
+    text-align: left;
 
+}
+.navigation a:hover{
+    color: #F2BD2C;
+    background-color: black;
+
+}
+.responsive li {
+	display: block;
+}
 }   
 

@@ -1,2 +1,11 @@
-let oLastModif = document.lastModified;
-document.getElementById("date_last_updated").innerHTML = "Last Updated: " + oLastModif;
+var d = new Date();
+var n = d.toDateString();
+document.getElementById("date_last_updated").innerHTML = n;
+
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
