@@ -68,5 +68,9 @@ nav li{
 .responsive li {
 	display: block;
 }
+.ham{
+    display:block;
+    color: #F2BD2C;
+}
 }   
 
