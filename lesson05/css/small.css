@@ -68,7 +68,7 @@ nav li{
 .responsive li {
 	display: block;
 }
-.ham{
+.fa-bars{
     display:block;
     color: #F2BD2C;
     font-size: xx-large;
@@ -77,11 +77,12 @@ nav li{
     width: 100%;
     height: 250px;
     padding-left: 0;
+    padding-right: 0;
 }
 .currentWeather {
 	
-	top: 360px;
-	right: 50px;
+	top: 1rem;
+	right: 25px;
 
 }
 .activity{
@@ -98,5 +99,28 @@ nav li{
 .contact{
     font-size: 12px;
 }
-}   
 
+.weatherTable{
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 8px;
+    table-layout: center;
+}
+.titlepage{
+    font-size: 20px;
+}
+.map{
+
+        float: top !important;
+        padding-right: 1px;
+        width: 100%;
+        height: 10rem;
+
+}
+.sunIcon{
+    font-size: 1rem;
+  }
+}   
+.activity{
+    font-size: 8.5px;
+}

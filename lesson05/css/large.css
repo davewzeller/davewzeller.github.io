@@ -1,4 +1,5 @@
 
+
 header{
     background-color: #cfdbd5;
     color: black;
@@ -68,6 +69,8 @@ nav a{
 .navigation a:hover{
     color: #F2BD2C;
     background-color: black;
+    box-shadow: 0 2px 15px gray;
+    
 
 }
 h1{
@@ -95,7 +98,7 @@ h4{
 }    
 div{
     display: block;
-    margin: 15px auto;
+    margin: 1px auto;
     border: 1px solid black;
     padding: 15px;
     background-color: #e8eddfff;
@@ -111,20 +114,34 @@ footer{
     padding-right: 5px;
 
 }
-.ham{
+.fa-bars{
     display:none;
 }
-.hero{
-    width: 60rem;
+.heroSection{
+    
     height: 20rem;
-    padding-left: 5rem;
+    position: relative;
+}
+.hero{
+    width: 100%;
+    height: 20rem;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #242423ff;
 }
 .titlepage{
     text-align: center;
+    background-color:#cfdbd5;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-bottom:2rem;
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 700;
 }
 .currentWeather {
 	position: absolute;
-	top: 450px;
+	top: 13px;
 	right: 50px;
 	background: radial-gradient(#eee, #36454f);
 	border: 1px solid #000;
@@ -134,6 +151,8 @@ footer{
 }
 .box{
     display:flex;
+    height: 10rem;
+    margin-top: 20px;
 }
 .storyphoto{
     float:right !important;
@@ -148,13 +167,13 @@ section.contact, .socal{
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     margin: 5px 2px;
   }
@@ -178,3 +197,28 @@ section.contact, .socal{
     background: #ea4c89;
     color: white;
   }
+.contact, .socal{
+    
+}
+.map{
+    float: right !important;
+    padding-right: 1px;
+    width: 50%;
+    height: 18.4rem;
+}
+.weatherTable{
+    padding-left:435px;
+    text-align:center;
+}
+.banner{
+    padding:15px;
+    text-align:center;
+    background-color: yellow;
+    display: none;
+    
+   
+}
+
+.sunIcon{
+  font-size: 5rem;
+}
