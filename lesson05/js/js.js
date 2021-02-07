@@ -1,3 +1,8 @@
+window.onload = function(){
+  // your code here
+};
+
+
 //date finder
 var d = new Date();
 var n = d.toDateString();
@@ -29,10 +34,10 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
     var b = weekday[d.getDay()];
     
 
-    if(b == weekday[1]) {
-      var x = "block";
+    if(b == "Friday") {
+      document.getElementById("myP1").style.display = "block";
     }
     else{
-        var x = "none";
+      document.getElementById("myP1").style.display = "none";
     }
     document.getElementById("banner").style.display = x;

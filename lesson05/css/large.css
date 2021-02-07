@@ -29,6 +29,7 @@ header{
 .active{
     background-color: black;
     color:#F2BD2C;
+    padding-top: 5rem;
 
 }
 nav{
@@ -100,7 +101,7 @@ div{
     display: block;
     margin: 1px auto;
     border: 1px solid black;
-    padding: 15px;
+    padding: 1px;
     background-color: #e8eddfff;
     color: #242423ff;
 
@@ -110,8 +111,12 @@ footer{
     font-family: signika, arial;
     background-color: #cfdbd5;
     color: black;
-    padding:25px;
-    padding-right: 5px;
+    padding: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem ;
+    display: block !important;
+    margin-top: 5rem;
+    
 
 }
 .fa-bars{
@@ -150,9 +155,11 @@ footer{
 	opacity: .8;
 }
 .box{
-    display:flex;
+    display:relative;
     height: 10rem;
-    margin-top: 20px;
+    font-size: 25px;
+    margin:0 !important;
+    
 }
 .storyphoto{
     float:right !important;
@@ -162,12 +169,22 @@ footer{
     margin-bottom: 15px;
     border: 3px solid;
 }
-section.contact, .socal{
+section.contact{
     background-color:#36454f;
     color: white;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0;
     padding-left: 10px;
+    margin-top: 25px;
+}
+.socal{
+    background-color:#36454f;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    padding-left: 10px;
+    
+    
 }
 .fa {
     padding: 20px;
@@ -197,18 +214,19 @@ section.contact, .socal{
     background: #ea4c89;
     color: white;
   }
-.contact, .socal{
-    
-}
+
 .map{
     float: right !important;
-    padding-right: 1px;
+    padding-right: 0;
     width: 50%;
     height: 18.4rem;
+    left: 20rem;
 }
 .weatherTable{
-    padding-left:435px;
+    padding-left:15rem;
     text-align:center;
+    padding-top:1rem;
+    padding-bottom: 1rem;
 }
 .banner{
     padding:15px;
@@ -218,7 +236,13 @@ section.contact, .socal{
     
    
 }
+p{
+ font-size: 1.1rem !important;
+}
 
 .sunIcon{
   font-size: 5rem;
+}
+.container{
+    padding-top: 5rem;
 }

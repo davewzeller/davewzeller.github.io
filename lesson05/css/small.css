@@ -30,6 +30,7 @@ font-size: 10px;
 footer{
     font-weight: 200;
     font-size: 15px;
+    width: 100%;
 }
 
 nav{
@@ -52,7 +53,7 @@ nav li{
    /*display: block;*/
     text-align: left;
     font-size: 15px;
-    padding: 5px 9px;
+    padding: .5rem .5rem;
 }
 .navigation a{
    display: block;
@@ -87,6 +88,8 @@ nav li{
 }
 .activity{
     justify-content: flex-end;
+    padding-left: 0;
+    font-size: .5rem !important;
 }
 .fa {
     padding: 10px;
@@ -114,13 +117,28 @@ nav li{
         float: top !important;
         padding-right: 1px;
         width: 100%;
-        height: 10rem;
+        height: 15rem;
 
 }
 .sunIcon{
     font-size: 1rem;
   }
-}   
-.activity{
-    font-size: 8.5px;
+   
+
+.box{
+    margin-top: 8.3rem;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 2rem;
+}
+footer{
+    width: 100%;
+    padding: 0;
+}
+div.container{
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
 }

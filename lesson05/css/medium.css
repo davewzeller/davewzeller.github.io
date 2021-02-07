@@ -17,11 +17,22 @@
     width: 100%;
     padding-left: 0%;
 }
-.currentWeather {
-	
-	top: 450px;
-	right: 30px;
-
+.weatherTable{
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 8px;
+    table-layout: center;
 }
 
+.map{
+    float: right !important;
+    padding-right: 0;
+    width: 50%;
+    height: 19rem;
+    left: 21rem;
+    margin-top:2rem;
+}
+p{
+    font-size: .7rem !important;
+   }
   } 
