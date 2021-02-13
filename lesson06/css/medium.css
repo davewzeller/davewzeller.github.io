@@ -1,0 +1,38 @@
+@media only screen and (min-width: 760px) and (max-width:900px) {
+    h1{
+        font-size: 25px;
+    }
+    .tentPhoto{
+        width: 125px;
+        height: 170px;
+        float: right;
+        margin: 15px auto;
+        margin-top: 10px;
+        background-color: #cfdbd5;
+   }
+   nav a{
+   font-size: 10px;
+   }
+.hero{
+    width: 100%;
+    padding-left: 0%;
+}
+.weatherTable{
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 8px;
+    table-layout: center;
+}
+
+.map{
+    float: right !important;
+    padding-right: 0;
+    width: 50%;
+    height: 19rem;
+    left: 21rem;
+    margin-top:2rem;
+}
+p{
+    font-size: .7rem !important;
+   }
+  } 
