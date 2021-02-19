@@ -1,4 +1,5 @@
 // selecting the data images 
+// this took too long
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const loadImages = (image) => {
