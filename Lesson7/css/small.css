@@ -140,5 +140,23 @@ div.container{
     padding-top: 0;
     
 }
+figcaption{
+    display: none;
+    text-align : center;
+    
+}
+
+figure:hover{
+    box-shadow: none !important;
+
+}
+section.pG{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  
+  }
+
 
 }

@@ -277,5 +277,31 @@ img{
     padding : 2px;
     filter: blur(0em);
 }
+section.pG{
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+  }
+  
 
+figure{
+    box-shadow: 1px 1px 1px 1px #333533 ;
+    grid-gap: 1rem;
+    width: 305px;
+    
+}    
+figure.img{
+    width: 300px;
+}
+   
+figcaption{
+    
+    text-align : center;
+    
+}
+
+figure:hover{
+    box-shadow: 10px 15px #cfdbd5;
+
+}

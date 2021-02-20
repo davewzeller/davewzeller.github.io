@@ -1,16 +1,25 @@
 @media only screen and (min-width: 760px) and (max-width:900px) {
     h1{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    header{
+        padding-bottom: 2rem;
     }
     .tentPhoto{
         width: 125px;
         height: 170px;
         float: right;
         margin: 1px auto;
-        margin-top: 10px;
+        margin-top: 5px;
         background-color: #cfdbd5;
    }
-   nav a{
+nav{
+    width: 100%;
+}   
+nav a{
    font-size: 10px;
    }
 .hero{
@@ -35,4 +44,33 @@
 p{
     font-size: .7rem !important;
    }
+figcaption{
+    display: none;
+    text-align : center;
+    
+}
+section.pG{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+  
+  }
+
+figure:hover{
+    box-shadow: none !important;
+
+}
+figcaption{
+    display: none;
+    text-align : center;
+    
+}
+
+figure:hover{
+    box-shadow: none !important;
+
+}
+
+
   } 
