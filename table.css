@@ -21,7 +21,9 @@ td{
     background-color: #e7ffed;  
     padding: 0.5em;
 }
-
+table{
+    box-shadow: #d6dbdb 1rem 1rem;
+}
 table, tr, th, td {
     border: 1px solid #cbcbcb;
     text-align: center;
