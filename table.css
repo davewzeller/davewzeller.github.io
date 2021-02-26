@@ -1,0 +1,41 @@
+
+thead{
+    background-color: #7fb9c2;
+    color: black;
+    font-size: 2em;
+    padding: 0.5em
+}
+tfoot{
+    background-color: #7fb9c2;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding: 0.5em
+}
+td.one{
+    background-color: black;
+    padding: 0.5em
+}
+
+td{
+    background-color: #e7ffed;  
+    padding: 0.5em;
+}
+
+table, tr, th, td {
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    padding: 0.5em
+   
+    
+    
+
+}
+
+body{
+    margin-top: 8rem;
+    margin-left: 30rem;
+    border-spacing: 3rem;
+    padding: 0.5em;
+    font-family: Ubuntu, sans-serif;
+}
