@@ -2,7 +2,7 @@ let todayBanner = new Date();
 
 window.onload = function banner() { 
 
-if (todayBanner.getDay() == 5 ) {
+if (todayBanner.getDay() == 6 ) {
   document.getElementById("banner").style.display = "block";
   
 }
