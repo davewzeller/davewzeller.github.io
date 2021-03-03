@@ -66,6 +66,9 @@ p{
     h1{
         font-size: 1rem;
     }
+    footer{
+         font-size: 1rem;
+    }
 }
 @media only screen and (min-width: 760px) and (max-width:900px) {
     .cards {
