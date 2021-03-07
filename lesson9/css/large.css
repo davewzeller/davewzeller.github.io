@@ -1,10 +1,7 @@
-
-
 header{
     background-color: #cfdbd5;
     color: black;
     padding: 1px;
-    
 }
 .header {
 
@@ -31,7 +28,7 @@ header{
 .active{
     background-color: black;
     color:#F2BD2C;
-    
+    padding-top: 1rem;
 
 }
 nav{
@@ -62,7 +59,7 @@ nav li{
     text-decoration: none;
 }
 nav a{
-    font-size: 2rem;
+    font-size: 1.1rem;
     color:#CFDBD5;
     padding: 1rem;
     display: inline-flex;
@@ -129,13 +126,13 @@ footer{
     display:none;
 }
 .heroSection{
+    width: 100%;
+    height: 250px;
     
-    height: 20rem;
-    position: relative;
 }
 .hero{
     width: 100%;
-    height: 15rem;
+    height: 100%;
     padding-left: 0;
     padding-right: 0;
     background-color: #242423ff;
@@ -162,7 +159,7 @@ footer{
 }
 .box{
     display:relative;
-    height: 10rem;
+    height: 13rem;
     font-size: 25px;
     margin:0 !important;
     
@@ -366,14 +363,13 @@ figure:hover{
 
 
 
-
 .cards section{
     display: block;
     grid-column: 1fr;
     text-align: center;
    
     
-    padding: 1px 3px 1px 1px;
+    padding: 0 3px 1px 1px;
     background-color: #8a8a96;
 
     
@@ -389,7 +385,7 @@ figure:hover{
 .cards img{
     box-shadow: 7px 7px 7px 7px #767689, 7px 7px 7px 7px #989ba9;
     width: 60%;
-    height: 65%;
+    height: 35%;
     
 }
 
@@ -397,18 +393,36 @@ figure:hover{
     background-color: #fbfbfb;
 }
 .cards h2{
-    font-size: 3rem;
+    font-size: 1rem;
     color: #4d4d96;
     font-family:  Shippori Mincho B1;
+    font-weight: bold;
+   
     
 
 }
+.cards h3{
+    font-size: .60rem;
+    font-weight: bold;
+   }
 .cards h1{
-    font-size: 3rem;
+    font-size: 1rem;
     color: #4d4d96;
     font-family:  Shippori Mincho B1;
+    font-weight: bold;
 }
-
+.cards h4{
+    font-size: .60rem;
+    font-weight: bold;
+   }
+ .cards h5{
+    font-size: .60rem;
+    font-weight: bold;
+   }
+ .cards h5{
+    font-size: .60rem;
+    font-weight: bold;
+   }
 .cards p{
     display: grid;
     grid-template-columns: 1fr;

@@ -44,7 +44,7 @@ fetch(requestURL)//copy of homework
         currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
         averageRainfall.textContent = 'Current Rain Fall: ' + towns[i].averageRainfall;
 
-        photo.setAttribute('src', '/images' + towns[i].photo);
+        photo.setAttribute('src', '../lesson9/images/' + towns[i].photo);
         photo.setAttribute('alt', towns[i].name + " " + towns[i].order);
 
 
