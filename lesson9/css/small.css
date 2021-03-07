@@ -1,0 +1,198 @@
+@media only screen and (min-width: 100px) and (max-width: 759px) {
+  
+  h1{
+    font-family: signika;
+    font-weight: bold;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+.tentPhoto{
+    width: 50px;
+    height: 75px;
+    float: right;
+    margin: 1px auto;
+    margin-top: 10px;
+    background-color: #cfdbd5;
+    
+    
+}
+h3{
+    font-weight: 200;
+    font-size: 10px;
+}
+h4{
+font-family: signika;
+
+font-weight: 100;
+font-size: 10px;
+}
+footer{
+    font-weight: 200;
+    font-size: 15px;
+    width: 100%;
+}
+
+nav{
+    margin:0 auto;
+    max-width: 759px;
+
+    }
+.navigation{
+    list-style: none;
+    padding: 0;
+}
+.navigation li:first-child{
+    display: block;
+  
+}
+nav li{
+     
+    display: none;
+    float: none;
+   /*display: block;*/
+    text-align: left;
+    font-size: 15px;
+    padding: .5rem .5rem;
+}
+.navigation a{
+   display: block;
+   padding: 5px;
+    text-align: left;
+
+}
+.navigation a:hover{
+    color: #F2BD2C;
+    background-color: black;
+
+}
+.responsive li {
+	display: block;
+}
+.fa-bars{
+    display:block;
+    color: #F2BD2C;
+    font-size: xx-large;
+}
+.hero{
+    width: 100%;
+    height: 250px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.currentWeather {
+	
+	top: 1rem;
+	right: 25px;
+
+}
+.activity{
+    justify-content: flex-end;
+    padding-left: 0;
+    font-size: .5rem !important;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.contact{
+    font-size: 12px;
+}
+
+.weatherTable{
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 8px;
+    table-layout: center;
+}
+.titlepage{
+    font-size: 20px;
+}
+.map{
+
+        float: top !important;
+        padding-right: 1px;
+        width: 100%;
+        height: 15rem;
+
+}
+.sunIcon{
+    font-size: 1rem;
+  }
+   
+
+.box{
+    margin-top: 8.3rem;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 2rem;
+}
+footer{
+    width: 100%;
+    padding: 0;
+}
+div.container{
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+figcaption{
+    display: none;
+    text-align : center;
+    
+}
+
+figure:hover{
+    box-shadow: none !important;
+
+}
+section.pG{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  
+  }
+  .personalInfo{
+   
+    padding-left: 1rem !important;
+    text-align: left;
+    padding-top: 5rem !important;
+
+}
+.stormInfo{
+    
+    padding-left: 1rem !important;
+    text-align: left ;
+    padding-top: 0rem !important;
+
+}
+.comments{
+    
+    padding-left: 0 !important;
+    text-align: left ;
+    padding-top: 0rem !important;
+    padding-bottom: 1rem;
+
+}
+
+.sCenter{
+    margin-top: -1rem;
+    padding-top: -1;
+    margin-bottom: -1rem;
+}
+.pageChange{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footerThanks{
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+}
