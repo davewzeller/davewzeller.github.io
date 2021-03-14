@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../lesson05/css/normalize.css">
+    <link rel="stylesheet" href="../lesson06/css/normalize.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="tent icon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="../lesson05/css/large.css" rel="stylesheet" type="text/css">
-    <link href="../lesson05/css/medium.css" type="text/css" rel = "stylesheet">
-    <link href="../lesson05/css/small.css" type="text/css" rel = "stylesheet">
-    <script src="../lesson05/js/day.js" ></script>
+    <link href="../lesson06/css/large.css" rel="stylesheet" type="text/css">
+    <link href="../lesson06/css/medium.css" type="text/css" rel = "stylesheet">
+    <link href="../lesson06/css/small.css" type="text/css" rel = "stylesheet">
+    
 
     <title>Weather Website for WDD 230</title>
    
 </head>
 <body>
     <header>
-        <img src="../lesson05/images/tent.png" alt="tent in a rainstorm" class="tentPhoto">
+        <img src="../lesson06/images/tent.png" alt="tent in a rainstorm" class="tentPhoto">
         <h1>Dave W Zeller .:|:. Weather Site</h1>
         <h3>Zellers giving a helping hand to plan for an outdoor activities.</h3>
         
@@ -93,14 +95,17 @@
      <div class="heroSection">      
         <section class = "currentWeather">  
             <h3>Weather Summery</h3>
-            <h4>Current Weather :<span class="Current"></span> Sunny</h4>
-            <h4>High :<span class="High"></span> 85</h4>
-            <h4>Wind Chill :<span class="wildChill"></span> 7</span> Sunny</h4>
-            <h4>Humidity :<span class="humidity"></span> Sunny</h4>
-            <h4>Wind Speed :<span class="windSpeed"></span> Sunny</h4>
+            <h4><span class="temp" id="temp"></span></h4>
+        
+            <h4>Wind Chill: <span id = "windChill"></span><span> &#8457</span></h4>
+            <h4>Humidity:</h4><span id = "humid"></span>
+            <h4>Wind Speed: <span id = "windTemp"></span> MPH</h4>
         </section>
-        <img src="preston id.jpg" alt="Preston id skyline" class="hero">
-     </div>   
+        <img src="../lesson10/images/hero.jpg" alt="cashvalley"  class = "hero"> <!--  class="hero" sizes="98vw"
+            srcset="../lesson06/images/wdd300.jpeg 500w,
+             ../lesson06/images/wdd700.jpeg 900w,   
+             ../lesson06/images/wdd1100.jpeg 1100w "
+        >  -->
         <div class="box">
     
             <p class="activity">THAT FAMOUS PRESTON NIGHT RODEO!  During the first weekend of August on Thursday through Saturday,<img src="../lesson05/images/preston_rodeo.jpg" alt="Rodeo Photo" class="storyphoto" /> Preston presents That Famous Preston Night Rodeo. It’s a PRCA event everyone will want to see. In the Morning and Afternoon come downtown for the city-wide sidewalk sales, Craft, Vendor and Antique Fair on State Street,  the Kids Festival, Live Entertainment, parade, and a Wild West Shoot Out. We have two lovely tree filled parks and RV facilities in the heart of town. There are antique shops, clothing boutiques, craft and collectable establishments, general merchandise and convenience stores.</p>
@@ -115,9 +120,10 @@
 
         <section class='contact'>
             <h2>Contact Us</h2>
-            <p class='fas fa-map-marker-alt' > 742 Evergreen Terrace, Springfield</p></br>
-            <p class='fas fa-phone-volume' > (939)-555-0113</p></br>
-            <p class="fas fa-envelope-square"> smartgirl63@yahoo.com</p>
+            <i id='fa fa-map-marker' ></i><p></p>  742 Evergreen Terrace, Springfield</></br>
+            <p id='fa fa-phone' > (939)-555-0113</p></br>
+            <p id="fa fa-envelope"> smartgirl63@yahoo.com</p>
+
         </section>
         <section class='socal'>
             <a href="http://www.facebook.com" class="fa fa-facebook"></a>
@@ -129,8 +135,11 @@
 
         <p>Copy Date &copy;2020 | Dave W Zeller | Washington | BYUI Online Learning</p>
         <p id = "date_last_updated"></p>
-        <script src="../lesson05/js/js.js"> </script>    
-        <script src="../lesson05/js/day.js"></script>
+        <script src="../lesson06/js/js.js"> </script>  
+        <script src="../lesson06/js/day.js"  ></script>
+        <script src="../lesson10/js/chill.js"></script>
+        <script src="../lesson10/js/wa.js"></script>
+        
         
  
         
