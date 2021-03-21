@@ -1,7 +1,7 @@
 
 var windChill = 65;
-var windSpeed = parseFloat(document.getElementById('windSpeed').textContent);
-var temp = parseFloat(document.getElementById('temp').textContent);
+var windSpeed = speed;
+var temp = temp;
 var speed = 66;
 
 if (temp <= 50 && windSpeed >3){
@@ -17,3 +17,7 @@ document.getElementById("windChill").innerHTML = windChill;
 
 
 /*parseFloat*/
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=666b87a823c8e0400b1ab1648c657442";
+
+
+

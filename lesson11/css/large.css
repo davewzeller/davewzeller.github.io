@@ -1,5 +1,3 @@
-
-
 header{
     background-color: #cfdbd5;
     color: black;
@@ -30,8 +28,14 @@ header{
 .active{
     background-color: black;
     color:#F2BD2C;
-    padding-top: 1rem;
+    padding-top: 0;
 
+}
+nav{
+    background-color: #333533ff;
+    display:flex;
+
+    
 }
 nav{
     flex: 1 1 100%;
@@ -78,6 +82,7 @@ h1{
     font-weight: 700;
 
 }
+
 h2{
     font-family: signika;
     
@@ -88,6 +93,7 @@ h3{
     font-family: signika;
     
     font-weight: 500;
+    
 
 }
 h4{
@@ -121,13 +127,13 @@ footer{
     display:none;
 }
 .heroSection{
+    width: 100%;
+    height: 250px;
     
-    height: 20rem;
-    position: relative;
 }
 .hero{
     width: 100%;
-    height: 20rem;
+    height: 100%;
     padding-left: 0;
     padding-right: 0;
     background-color: #242423ff;
@@ -154,7 +160,7 @@ footer{
 }
 .box{
     display:relative;
-    height: 10rem;
+    height: 13rem;
     font-size: 25px;
     margin:0 !important;
     
@@ -299,3 +305,130 @@ figure:hover{
     box-shadow: 10px 15px #cfdbd5;
 
 }
+
+
+.personalInfo{
+   
+    padding-left: 5rem !important;
+    text-align: left;
+    padding-top: 5rem !important;
+
+}
+.stormInfo{
+    
+    padding-left: 5rem !important;
+    text-align: left ;
+    padding-top: 0rem !important;
+
+}
+.comments{
+    
+    padding-left: 2rem !important;
+    text-align: left ;
+    padding-top: 0rem !important;
+    padding-bottom: 1rem;
+
+}
+
+.sCenter{
+    margin-top: 0;
+    padding-top: -1rem;
+}
+.pageChange{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+.thankyou{
+    text-align: center;
+    background-color: #91c5ab;
+    padding-bottom: 5rem;
+    padding-top: 0;
+    margin-top: 5rem;
+
+}
+.footerThanks{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.titleThank{
+    padding-top: 5rem;
+    text-align: center;
+    background-color: #91c5ab;
+    padding-bottom: 5rem;
+    
+
+}
+.saveMe{
+    background-color: #91c5ab;
+}
+
+
+
+.cards section{
+    display: block;
+    grid-column: 1fr;
+    text-align: center;
+   
+    
+    padding: 0 3px 1px 1px;
+    background-color: #8a8a96;
+
+    
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: .75rem;
+
+    
+  }
+
+.cards img{
+    box-shadow: 7px 7px 7px 7px #767689, 7px 7px 7px 7px #989ba9;
+    width: 60%;
+    height: 35%;
+    
+}
+
+.cards body{
+    background-color: #fbfbfb;
+}
+.cards h2{
+    font-size: 1rem;
+    color: #4d4d96;
+    font-family:  Shippori Mincho B1;
+    font-weight: bold;
+   
+    
+
+}
+.cards h3{
+    font-size: .60rem;
+    font-weight: bold;
+   }
+.cards h1{
+    font-size: 1rem;
+    color: #4d4d96;
+    font-family:  Shippori Mincho B1;
+    font-weight: bold;
+}
+.cards h4{
+    font-size: .60rem;
+    font-weight: bold;
+   }
+ .cards h5{
+    font-size: .60rem;
+    font-weight: bold;
+   }
+ .cards h5{
+    font-size: .60rem;
+    font-weight: bold;
+   }
+.cards p{
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 1.6;
+    margin: 8px;
+}   
+
+
