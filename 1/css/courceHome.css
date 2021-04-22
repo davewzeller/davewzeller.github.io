@@ -1,6 +1,10 @@
 body{
+    
     background-color: black;
     font-family: 'Lora', serif;
+   
+  
+    
 }
 header, footer{
     background-color: rgb(37, 43, 49);
@@ -8,23 +12,32 @@ header, footer{
     text-align: center;
     height: 5rem;
     border-radius: 5rem;
+    max-width: 750px;
+    margin: 0 auto;
+    
     
 
 }
-ul{
+main {
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
     padding-left: 5rem;
 }
+
 .link{
     color: #95d7f3;
+    padding-left: .75rem;
 }
 li{
     color: #fff;
+    
     
 }
 img{
    float: right;
     padding-top: 2rem;
-    padding-right: 5rem;
+    padding-right: 1.5rem;
 }
 h1{
  font-size: 2.5rem;
@@ -33,7 +46,7 @@ h1{
 h2{
     font-size: 1.5rem;
     color: #fff;
-    padding-left: 3rem;
+   
 }
 footer{
     padding-top: 2rem;

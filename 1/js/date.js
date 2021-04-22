@@ -1,7 +1,6 @@
-const now = new Date(document.lastModified);
+document.querySelector("#datemod").textContent= document.lastModified;
+var d = new Date();
+var n = d.getFullYear();
+document.querySelector("#year").textContent = n;
 
-const datefield = document.querySelector("date");
-
-datefield.textContent = now;
-
-// Accidently barrowed from https://codepen.io/blazzard-jason/pen/ZEWjeaw with changed
+//Thank goodness for the lab, I fought tooth and nail but couldn't get the dates to work properly
