@@ -18,6 +18,7 @@ header, footer{
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 466px;
+    font-family: 'Alegreya Sans', sans-serif;
 
    
     
@@ -45,7 +46,8 @@ main{
 }
 section{
     background-color: #404040;
-    border: 1px solid
+    border: 1px solid;
+    font-family: 'Alegreya Sans', sans-serif
     
 }
 h3{
