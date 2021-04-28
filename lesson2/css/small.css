@@ -8,7 +8,7 @@ body{
     grid-gap: 1.5rem;
 }
 a{
-    color: #95d7f3;
+    color: hsl(198, 100%, 88%);
 }
 header, footer{
     background-color: rgb(37, 43, 49);
@@ -38,14 +38,15 @@ footer{
 main{
     display: grid;
     grid-template-columns: 1fr;
-   
+    grid-gap: 1.5rem;
     grid-area: main;
     width: 80%;
     text-align: center;
 }
 section{
-    background-color: gray;
+    background-color: #404040;
     border: 1px solid
+    
 }
 h3{
     
@@ -57,6 +58,7 @@ main img{
 main p{
     text-align: left;
     padding-left: 1rem;
+    color: #b8fdeb;
 }
 main h4{
     color: red;
