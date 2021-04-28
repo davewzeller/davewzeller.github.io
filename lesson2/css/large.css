@@ -1,0 +1,26 @@
+@media (min-width: 761px) {
+
+  
+body{
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                        " main main main"
+                        "footer footer footer";
+     background-color: black;
+}
+header, footer{
+    width: 1600px;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+    grid-area: main;
+    width: 90%;
+    text-align: center;
+}
+
+}
