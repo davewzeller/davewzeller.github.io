@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header"
+                        " main"
+                        "footer";
+    grid-gap: 1.5rem;
+    font-size: 16px;
+
+}
+a{
+    color: hsl(198, 100%, 88%);
+}
+header, footer, nav, main{
+    max-width: 800px;
+    margin: auto;
+}
+header, footer{
+    background-color: rgb(37, 43, 49);
+    color: #fff;
+    text-align: center;
+    height: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 466px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+   
+    
+    
+
+}
+header{
+    grid-area: header;
+
+}
+footer{
+    grid-area: footer;
+    text-decoration: none;
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+    
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+
+}
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f;
+}
+.active {
+	color: yellow;
+}
+
+    /*font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Yesteryear', cursive;*/
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    grid-area: main;
+    width: 80%;
+    text-align: center;
+}
+section{
+    background-color: #404040;
+    border: 1px solid;
+    font-family: 'Alegreya Sans', sans-serif
+    
+}
+h3{
+    
+    color: white;
+}
+main img{
+    height: 800px;
+}
+main p{
+    text-align: left;
+    padding-left: 1rem;
+    color: #b8fdeb;
+}
+main h4{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
