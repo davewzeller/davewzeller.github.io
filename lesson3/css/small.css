@@ -44,29 +44,36 @@ nav {
 	background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
+    padding: 10px 10px 10px 10px;
     
 }
 nav ul {
+    display: flex;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    justify-content: space-around;
+    
 }
 nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 0.75rem;
+	padding: 1rem;
 	text-decoration: none;
 	font-size: 0.95rem;
+   
 
 }
 nav a:hover {
 	background-color: #bbb;
 	color: #36454f;
+    margin: auto 1rem;
 }
 .active {
 	color: yellow;
+    
 }
 
     /*font-family: 'Alegreya Sans', sans-serif;
