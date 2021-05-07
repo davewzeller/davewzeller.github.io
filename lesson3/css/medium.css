@@ -1,29 +1,21 @@
 @media screen and (max-width: 760px) and (min-width: 467px) {
-body{
-    
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "header header"
-                        " main main"
-                        "footer footer";
-}
-header, footer{
+    main .mer{
 
-    width: 900px;
-    text-align: center;
-
-   
-    
-    
-
-}
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: .5rem .5rem .5rem 0;
-   
-    width: 80%;
-    
-}
+        width: 520px;
+      
+        
+        
+    }
+    main .noto{
+      
+        width: 520px;
+       
+        
+        
+    }
+    main .typ{
+     
+        width: 520px;
+    }
 
 }

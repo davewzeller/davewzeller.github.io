@@ -1,27 +1,42 @@
-@media (min-width: 761px) {
+@media screen and (min-width: 760px) {
+ main{
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+ main .mer{
 
+    width: 800px;
   
-body{
     
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "header header header"
-                        " main main main"
-                        "footer footer footer";
-     background-color: black;
+    
 }
-header, footer{
-    width: 1515px; 
-    text-align: center;
-    margin-left: 1.5rems
+main .noto{
+  
+    width: 800px;
+   
+    
+    
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 1.5rem 1.5rem 1.5rem 3.5rem;
-    grid-area: main;
-    width: 90%;
-    text-align: center;
+main .typ{
+ 
+    width: 800px;
 }
+.card{
+width: 1fr;
+   border: none;
+    
+}
+.card img{
+    width: 250px;
+    
+}
+.sitepurpose{
+    width: 780px;
+    
 
+}
+.purposestatment{
+    width: 760px;
+  
+}
 }
