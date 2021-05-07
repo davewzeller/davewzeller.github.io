@@ -23,8 +23,8 @@ header, footer{
     height: 7rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: 466px;
-    font-family: 'Alegreya Sans', sans-serif;
+    
+    font-family: 'Merriweather', sans-serif;
 
    
     
@@ -51,7 +51,7 @@ nav ul {
     display: flex;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 0rem;
 	overflow: hidden;
     justify-content: space-around;
     
@@ -69,7 +69,8 @@ nav ul li a {
 nav a:hover {
 	background-color: #bbb;
 	color: #36454f;
-    margin: auto 1rem;
+    
+    
 }
 .active {
 	color: yellow;
@@ -78,14 +79,7 @@ nav a:hover {
 
     /*font-family: 'Alegreya Sans', sans-serif;
     font-family: 'Yesteryear', cursive;*/
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1.5rem;
-    grid-area: main;
-    width: 80%;
-    text-align: center;
-}
+
 section{
     background-color: #404040;
     border: 1px solid;
@@ -96,17 +90,75 @@ h3{
     
     color: white;
 }
+
 main img{
-    height: 800px;
+    width: 302px;
+  
 }
 main p{
-    text-align: left;
+    text-align: center;
     padding-left: 1rem;
     color: #b8fdeb;
 }
-main h4{
-    color: red;
+.color-scheme {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+
+    
+    
+
+}
+main .typ{
+    grid-row-start: 1;
+    text-align: center;
+    width: 344px;
+}
+main .mer{
+    grid-row-start: 2;
+    font-family: 'Merriweather', serif;
+    color: white;
+    width: 344px;
+    text-align: center;
+    
+    
+}
+main .noto{
+    grid-row-start: 3;
+    color: white;
+    width: 344px;
+    text-align: center;
+    font-family: Noto Serif, serif;
+    
+    
 }
 a{
     text-decoration: none;
+}
+.sitepurpose{
+    grid-row-start:1;
+    text-align: center;
+    
+
+}
+.purposestatment{
+    grid-row-start:2;
+    text-align: center;
+  
+}
+.card{
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid red;
+   
+    
+}
+.card img{
+    
+    flex: 1;
 }
