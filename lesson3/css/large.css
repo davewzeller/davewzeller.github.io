@@ -23,11 +23,7 @@ main .typ{
     text-align: center;
 }
 .card{
-    text-align: center;
     width: 344px;
-   border-color: gray transparent;
-   border: 1px solid
-    
 }
 .card img{
     width: 250px;
@@ -69,6 +65,7 @@ header img{
 }
 nav a {
     font-size: 1.1rem;
+   
 } 
 
 article:nth-child(3) {

@@ -80,7 +80,7 @@ nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-    min-width: 350px !important;
+    
 	text-decoration: none;
    
     font-size: 1rem;
@@ -172,9 +172,10 @@ a{
   
 }
 .card{
-   
-    border: 1px solid red;
-   
+    text-align: center;
+    width: 250px;
+    border-color: gray transparent;
+    border: 1px solid
     
 }
 

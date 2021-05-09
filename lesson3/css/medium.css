@@ -13,6 +13,9 @@
         
         
     }
+    .card{
+        width: 344px;
+    }
     main .typ{
      
         width: 520px;
@@ -58,11 +61,14 @@
     header h1{
         font-size:16px;
      
-        margin-top: 0 auto;
+        margin-top: -5rem;
     }
     nav ul{
         grid-template-columns: repeat(5, 1fr);
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-        word-spacing: 8px;
+       
     }
+   nav ul li{
+       display: inline-block;
+   }
 }
