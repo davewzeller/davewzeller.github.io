@@ -14,7 +14,7 @@
         
     }
     .card{
-        width: 344px;
+        width: 200px;
     }
     main .typ{
      
@@ -30,7 +30,13 @@
 		border: 1px solid #bbb;
 	}
 
-    main{
+    .target{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr
+    }
+    .target .card{
         margin: 0 auto;
     }
     header, footer, main, nav{

@@ -22,8 +22,13 @@ main .typ{
     width: 800px;
     text-align: center;
 }
+.target{
+
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 .card{
-    width: 344px;
+    width: 300px;
 }
 .card img{
     width: 250px;
