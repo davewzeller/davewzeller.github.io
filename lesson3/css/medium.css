@@ -1,4 +1,4 @@
-@media screen and (max-width: 760px) and (min-width: 467px) {
+@media only screen and (min-width: 38em) {
     main .mer{
 
         width: 520px;
@@ -18,4 +18,51 @@
         width: 520px;
     }
 
+	main picture {
+		display: block;
+	}
+	main picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+
+    main{
+        margin: 0 auto;
+    }
+    header, footer, main, nav{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    header, footer{
+        background-color: rgb(37, 43, 49);
+        color: #fff;
+       
+        height: 8rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        font-family: 'Merriweather', sans-serif;
+    
+       
+        
+        
+    
+    }
+    header img{
+        width: 100px;
+        justify-content: right;
+        
+        z-index: 99;
+    }
+    header h1{
+        font-size:16px;
+        z-index: 1;
+        margin-top: 0 auto;
+    }
+    nav ul{
+        grid-template-columns: repeat(5, 1fr);*/
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        word-spacing: 8px;
+    }
 }

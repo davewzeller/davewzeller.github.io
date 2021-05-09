@@ -1,72 +1,92 @@
 body{
     background-color: black;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "header"
-                        " main"
-                        "footer";
-    grid-gap: 1.5rem;
     font-size: 16px;
+    margin:0;
 
 }
 a{
     color: hsl(198, 100%, 88%);
 }
-header, footer, nav, main{
+header,nav, footer, main{
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
+    font-size: 12px;
 }
-header, footer{
-    background-color: rgb(37, 43, 49);
-    color: #fff;
-    text-align: center;
-    height: 7rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    
+header, footer, main{
+	background-color: rgb(37, 43, 49);
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	color: white;
+	padding: 1px;
+    gap: 1px;
+    margin: 0;
     font-family: 'Merriweather', sans-serif;
+}    
 
-   
     
     
 
-}
+
 header img{
-    width: 100px;
-    float: right;
+    width: 50px;
+    margin-left: auto;
 }
 header{
-    grid-area: header;
-
+    margin-top: 0;
+    margin-right: 0;
 }
 footer{
-    grid-area: footer;
     text-decoration: none;
+    text-align: center;
 }
+
+
+
+
+
+
 
 nav {
 	background-color: #36454f;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
-    padding: 10px 10px 10px 10px;
+	box-shadow: 8px 2px 15px gray;
+    font-size: 20px;
+    padding: 1rem
+    
+    
+   
+ 
     
 }
 nav ul {
-    display: flex;
+   
 	list-style-type: none;
-	margin: 0;
-	padding: 0rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 	overflow: hidden;
-    justify-content: space-around;
+    line-height: 3rem;
+    word-spacing: 5rem;
+    
+    
+    
+    
+    
+    
+    
     
 }
 nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 1rem;
+    min-width: 350 !important;
 	text-decoration: none;
-	font-size: 0.95rem;
+   
+    font-size: 1rem;
+    
+   
+    
    
 
 }
@@ -77,31 +97,32 @@ nav a:hover {
     
 }
 .active {
-	color: yellow;
+	color: red;
     
 }
 
-    /*font-family: 'Alegreya Sans', sans-serif;
-    font-family: 'Yesteryear', cursive;*/
 
-section{
-    background-color: #404040;
-    border: 1px solid;
-    font-family: 'Alegreya Sans', sans-serif
-    
+
+
+
+
+
+h2{
+    align-self: left;
 }
+
 h3{
     
     color: white;
 }
 
 main img{
-    width: 302px;
+    width: 200px;
   
 }
 main p{
-    text-align: center;
-    padding-left: 1rem;
+    text-align: left;
+    
     color: #b8fdeb;
 }
 .color-scheme {
@@ -109,16 +130,12 @@ main p{
     justify-content: center;
     flex-wrap: wrap;
 }
-
-main {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    text-align: center;
-
     
     
-
+main{
+    background-color: rgb(131, 125, 125);
 }
+
 main .typ{
     grid-row-start: 1;
     text-align: center;
@@ -146,23 +163,27 @@ a{
     text-decoration: none;
 }
 .sitepurpose{
-    grid-row-start:1;
+    
     text-align: center;
     
 
 }
 .purposestatment{
-    grid-row-start:2;
+    
     text-align: center;
   
 }
 .card{
-    margin: 1rem 1rem 1rem 1rem;
+   
     border: 1px solid red;
    
     
 }
-.card img{
+
+
+section{
+    background-color: #404040;
+    border: 1px solid;
+    font-family: 'Alegreya Sans', sans-serif
     
-    flex: 1;
 }

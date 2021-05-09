@@ -1,11 +1,11 @@
-@media screen and (min-width: 760px) {
- main{
-     grid-template-rows: 1fr 1fr;
-     grid-template-columns: 1fr 1fr 1fr;
+@media only screen and (min-width: 60em) {
+ main p{
+     text-align: center;
  }
  main .mer{
 
     width: 800px;
+    text-align: center;
   
     
     
@@ -14,16 +14,19 @@ main .noto{
   
     width: 800px;
    
-    
+    text-align: center;
     
 }
 main .typ{
  
     width: 800px;
+    text-align: center;
 }
 .card{
-width: 1fr;
-   border: none;
+    text-align: center;
+    width: 344px;
+   border-color: gray transparent;
+   border: 1px solid
     
 }
 .card img{
@@ -31,12 +34,55 @@ width: 1fr;
     
 }
 .sitepurpose{
-    width: 780px;
+    width: 350px;
     
 
 }
 .purposestatment{
-    width: 760px;
+    width: 350px;
   
+} 
+
+
+
+header, footer, main, nav{
+    max-width: 80%;
+    margin: .5rem auto;
+}
+header, footer{
+    background-color: rgb(37, 43, 49);
+    color: #fff;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Merriweather', sans-serif;
+    line-height: 1rem;
+    word-spacing: normal;
+ 
+    
+
+}
+
+header img{
+    width: 100px;
+    margin-top: 10px;
+    justify-self: left;
+}
+nav a {
+    font-size: 1.1rem;
+} 
+
+article:nth-child(3) {
+    grid-column: span 1;
+}
+.color-scheme {
+    width: 780px;
+}
+h1{
+    
+    font-size: 32px !important;
+    margin-top: -5rem !important;
+}
+footer{
+    align-items: left !important;
 }
 }
