@@ -114,9 +114,11 @@ h3{
     color: white;
 }
 
-main img{
-    width: 30%;
-  
+
+
+.color-scheme{
+    width: 100%;
+    
 }
 main p{
     text-align: left;

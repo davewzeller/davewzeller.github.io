@@ -17,7 +17,7 @@
         width: 200px;
     }
     main .typ{
-     
+        margin: 0 auto;
         width: 520px;
     }
 
@@ -76,5 +76,9 @@
     }
    nav ul li{
        display: inline-block;
+       font-size: .75rem;
+   }
+   nav ul li a{
+       font-size: .67rem;
    }
 }

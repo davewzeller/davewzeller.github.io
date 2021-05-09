@@ -25,7 +25,8 @@ main .typ{
 .target{
 
     grid-template-columns: 1fr 1fr 1fr;
-    
+    grid-template-rows: 1fr 1fr;
+    gap: .75rem;
 }
 .card{
     width: 300px;
@@ -68,10 +69,7 @@ header img{
     margin-top: 10px;
     justify-self: left;
 }
-nav a {
-    font-size: 1.1rem;
-   
-} 
+
 
 article:nth-child(3) {
     grid-column: span 1;
@@ -79,10 +77,20 @@ article:nth-child(3) {
 .color-scheme {
     width: 780px;
 }
+nav ul li a{
+    font-size: 1.4rem;
+}
 h1{
     
     font-size: 32px !important;
     margin-top: -5rem !important;
 }
-
+.target .card{
+    width: 310px;
+    height: 310px;
+    
+}
+.target img{
+        width: 30%;
+}
 }
