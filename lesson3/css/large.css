@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 55em) {
  main p{
      text-align: center;
  }
@@ -41,7 +41,7 @@ main .typ{
 
 }
 .purposestatment{
-    width: 350px;
+    width: 300px;
   
 } 
 
