@@ -80,7 +80,7 @@ nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-    min-width: 350 !important;
+    min-width: 350px !important;
 	text-decoration: none;
    
     font-size: 1rem;
@@ -107,9 +107,7 @@ nav a:hover {
 
 
 
-h2{
-    align-self: left;
-}
+
 
 h3{
     
