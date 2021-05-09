@@ -115,7 +115,7 @@ h3{
 }
 
 main img{
-    width: 200px;
+    width: 30%;
   
 }
 main p{
@@ -173,7 +173,7 @@ a{
 }
 .card{
     text-align: center;
-    width: 250px;
+    
     border-color: gray transparent;
     border: 1px solid
     
