@@ -28,20 +28,14 @@ main .typ{
     grid-template-rows: 1fr 1fr;
     gap: .75rem;
 }
-.card{
-    width: 300px;
-}
-.card img{
-    width: 250px;
-    
-}
+
 .sitepurpose{
-    width: 350px;
+    width: 100%;
     
 
 }
 .purposestatment{
-    width: 300px;
+    width: 100%;
   
 } 
 

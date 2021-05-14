@@ -22,12 +22,13 @@
     }
 
 	main picture {
-		display: block;
+		display: flex;
 	}
 	main picture img {
-		width: 100%;
+		width: 35em;
 		height: auto;
 		border: 1px solid #bbb;
+        
 	}
 
     .target{
@@ -81,4 +82,9 @@
    nav ul li a{
        font-size: .67rem;
    }
+       
+main .color-scheme{
+    width: 100%;
+}
+
 }
