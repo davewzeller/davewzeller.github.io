@@ -1,0 +1,132 @@
+body {
+    background-color: #FBFDE5;
+   
+}
+
+header,
+footer {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bafbda+0,075b23+100 */
+    background: rgb(186,251,218); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(186,251,218,1) 0%, rgba(7,91,35,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(186,251,218,1) 0%,rgba(7,91,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(186,251,218,1) 0%,rgba(7,91,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bafbda', endColorstr='#075b23',GradientType=0 ); /* IE6-9 */
+    padding: .5rem;
+    line-height: 1rem;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    text-decoration: none;
+}
+header{
+    height: 10rem;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: .5rem;
+    margin-top: -1rem;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent !important;
+    line-height: 1rem;
+    padding-left: 1rem;
+}
+header img {
+    width: 90px;
+   
+}
+
+header h1{
+    font-size: 1.5rem;
+    margin: 0 0 0 1px
+
+}
+header h4{
+    letter-spacing: 1pt;
+    margin: left 20px;
+    font-size: 0.75rem;
+   
+}
+header div{
+    font-size: .5rem;
+}
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#843bf9+2,53027f+100&0.24+2,0.79+100 */
+background: -moz-linear-gradient(top,  rgba(132,59,249,0.24) 2%, rgba(83,2,127,0.79) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(132,59,249,0.24) 2%,rgba(83,2,127,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(132,59,249,0.24) 2%,rgba(83,2,127,0.79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d843bf9', endColorstr='#c953027f',GradientType=0 ); /* IE6-9 */
+
+    font-family: Merriweather, sans-serif;
+
+
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #f46786;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #FBFDE5;
+    border-top: 1px solid rgba(0,0,0, 0.3);
+
+}
+.active {
+    background-color: rgba(0,0,0,0.5);
+    color: #e2ef4a;
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,.04);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main div {
+    background-color: #0CCE6B;
+    padding: .5rem;
+    display: block;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    text-decoration: none;
+}
+
+section {
+    background-color: #F7FBCB;
+    margin: 1rem;
+    height: 3rem;
+    font-family: 'Noto Serif', sans-serif;
+    border: 1px dotted black;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+footer {
+    font-size: .6rem;
+
+}
+
+footer div {
+  
+    color: #000000;
+}
+
+.clearfix:after{
+    content:" ";
+    display: table;
+    clear: both;
+}

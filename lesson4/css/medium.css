@@ -1,0 +1,63 @@
+@media only screen and (min-width: 35em) {
+
+    header,
+    footer {
+        margin: 0 auto;
+        padding: .5rem;
+
+        max-width: 70%;
+    }
+nav{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: .5rem;
+    
+}
+
+
+    header img {
+        float: left;
+        padding-top: 0;
+    }
+
+    main {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    main header {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    footer {
+        max-width: 70%;
+        font-size: 1rem;
+
+    }
+    header h4{
+        letter-spacing: 1pt;
+        margin: left 20px;
+        font-size: 1rem;
+       
+    }
+    header div{
+        font-size: .75rem;
+    }
+
+    h6 {
+        font-size: 1.5em;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
