@@ -16,6 +16,7 @@ footer {
     text-align: center;
     font-family: Merriweather, sans-serif;
     text-decoration: none;
+    border-radius: 25px;
 }
 header{
     height: 10rem;
@@ -61,7 +62,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d843bf9', e
 
     font-family: Merriweather, sans-serif;
 
-
+border-radius: 25px;
 
 }
 nav ul{
@@ -103,6 +104,7 @@ main div {
     text-align: center;
     font-family: Merriweather, sans-serif;
     text-decoration: none;
+    border-radius: 25px;
 }
 
 section {
@@ -113,6 +115,7 @@ section {
     border: 1px dotted black;
     padding-left: 5rem;
     padding-top: 1rem;
+    border-radius: 25px;
 }
 
 footer {
