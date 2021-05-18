@@ -1,0 +1,86 @@
+@media only screen and (min-width: 35em) {
+
+    header,
+    footer {
+        margin: 0 auto;
+        padding: .5rem;
+
+        max-width: 70%;
+    }
+nav{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: .5rem;
+    
+}
+
+.banner{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: .5rem;
+    line-height: 1rem;
+    
+
+
+}
+.hero-container{
+    position: relative;
+    max-width: 960%;
+
+}
+.heroImage{
+    max-width: 120%;
+    margin-left: -1rem;
+}
+.banner h1{
+    font-size: 20px;
+}
+.banner h2{
+    font-size: 18px;
+}
+    header img {
+        float: left;
+        padding-top: 0;
+    }
+
+    main {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    main header {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    footer {
+        max-width: 70%;
+        font-size: 1rem;
+
+    }
+    header h4{
+        letter-spacing: 1pt;
+        
+        font-size: 1rem;
+       
+    }
+    header div{
+        font-size: .75rem;
+    }
+
+    h6 {
+        font-size: 1.5em;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
