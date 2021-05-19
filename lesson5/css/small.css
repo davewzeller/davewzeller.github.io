@@ -164,6 +164,20 @@ section {
     
     
 }
+.article{
+    height:250px;
+    padding-left: .75rem !important;
+    background: -moz-linear-gradient(top, rgba(93,59,46,0.65) 0%, rgba(173,104,86,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(93,59,46,0.65) 0%,rgba(173,104,86,0) 100%);
+    background: linear-gradient(to bottom, rgba(93,59,46,0.65) 0%,rgba(173,104,86,0) 100%);
+}
+.imgArticle{
+    width: 150px;
+}
+.article p{
+    font-size: 8px;
+}
+
 footer {
     font-size: .6rem;
 

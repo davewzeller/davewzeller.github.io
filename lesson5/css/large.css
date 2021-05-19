@@ -71,15 +71,31 @@
     h6 {
         font-size: 1.5em;
     }
-
-
-
-
-
-
-
-
+    .article{
+        height:460px;
+        padding-left: .75rem !important;
+    }
+    .imgArticle{
+        width: 450px;
+        float:left;
+        padding-right: 2rem;
+        margin-right:1rem;
+        
+    }
+    .article p{
+       font-size:  1rem;
+       margin: 2rem auto;
+       padding-left: 2rem;
+    }
 }
+
+
+
+
+
+
+
+
 
 
 
