@@ -1,21 +1,24 @@
-const list = document.createElement('ul');
-const info = document.createElement('p');
-const html = document.querySelector('html');
+const fav = document.querySelector('#fav');
+const button = document.querySelector('#button');
+const output = document.querySelect('.list');
 
-info.textContent = 'Below is a dynamic list. Click anywhere outside the list to add a new list item. Click an existing list item to change its text to something else.';
+button.addEventListener('click', () => {
+  //create the elements in the list
+ if(fav.value != '') {
+  let li = document.createElement("li");
+  let delete = document.createElement("button");
+  //change the properties
+  li.textContent = fav.value;
+  delete.textContent = '❌'
+  li.append('delete');
+  output.append(li);
+  delete.addEventListener('click', () => {
+    list.removeChild(li);
+    fav.focus;
 
-document.body.appendChild(info);
-document.body.appendChild(list);
+  });
+fav.value = '';
+fav.focus;
 
-html.onclick = function() {
-  const listItem = document.createElement('li');
-  const listContent = prompt('What content do you want the list item to have?');
-  listItem.textContent = listContent;
-  list.appendChild(listItem);
-
-  listItem.onclick = function(e) {
-    e.stopPropagation();
-    const listContent = prompt('Enter new content for your list item');
-    this.textContent = listContent;
-  }
-}
+ }
+});

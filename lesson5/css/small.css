@@ -1,5 +1,6 @@
 body {
     background-color: #FBFDE5;
+ 
    
 }
 
@@ -74,52 +75,64 @@ header h4{
     font-size: 0.75rem;
    
 }
-
 nav {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#843bf9+2,53027f+100&0.24+2,0.79+100 */
-background: -moz-linear-gradient(top,  rgba(132,59,249,0.24) 2%, rgba(83,2,127,0.79) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(132,59,249,0.24) 2%,rgba(83,2,127,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(132,59,249,0.24) 2%,rgba(83,2,127,0.79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d843bf9', endColorstr='#c953027f',GradientType=0 ); /* IE6-9 */
-
-    font-family: Merriweather, sans-serif;
-
-border-radius: 25px;
-
+	margin: 0 auto;
+    background: -moz-linear-gradient(top,  rgba(132,59,249,0.24) 2%, rgba(83,2,127,0.79) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(132,59,249,0.24) 2%,rgba(83,2,127,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(132,59,249,0.24) 2%,rgba(83,2,127,0.79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d843bf9', endColorstr='#c953027f',GradientType=0 ); /* IE6-9 */
+    
+        font-family: Merriweather, sans-serif;
+    
+    border-radius: 25px;
 }
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.navigation {
+	list-style: none;
+	padding: 0;
 }
-nav button{
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
+.navigation li:first-child {
+	display: block;
     font-size: 2rem;
-    color: #f46786;
 }
-nav ul li a{
-    display: block;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color: #FBFDE5;
-    border-top: 1px solid rgba(0,0,0, 0.3);
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
 
+.responsive li {
+	display: block;
 }
 .active {
     background-color: rgba(0,0,0,0.5);
     color: #e2ef4a;
 }
-nav ul li a:hover{
-    background-color: rgba(0,0,0,.04);
+
+.townName{
+    text-align: center;
+    margin-left: -.5rem;
+    padding-top: 1rem;
+
+    background: -moz-linear-gradient(top, rgba(93,59,46,0.65) 0%, rgba(173,104,86,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(93,59,46,0.65) 0%,rgba(173,104,86,0) 100%);
+    background: linear-gradient(to bottom, rgba(93,59,46,0.65) 0%,rgba(173,104,86,0) 100%);
+    
 }
 
-nav ul.hide {
-    display: none;
-}
 
-main div {
+
+
+main .weatherSummary {
     background-color: #0CCE6B;
     padding: .5rem;
     display: block;
@@ -165,11 +178,16 @@ section {
     
 }
 .article{
+    display: block !important;
     height:250px;
     padding-left: .75rem !important;
     background: -moz-linear-gradient(top, rgba(93,59,46,0.65) 0%, rgba(173,104,86,0) 100%);
     background: -webkit-linear-gradient(top, rgba(93,59,46,0.65) 0%,rgba(173,104,86,0) 100%);
     background: linear-gradient(to bottom, rgba(93,59,46,0.65) 0%,rgba(173,104,86,0) 100%);
+    margin: 1rem auto;
+}
+.article h2{
+    text-align: center;
 }
 .imgArticle{
     width: 150px;
@@ -193,3 +211,36 @@ footer div {
     display: table;
     clear: both;
 }
+.weather{
+    display: none;
+    background-color: none;
+    margin-left: -5rem;
+}
+/*help from w3shools*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  address iframe{
+      display: none;
+  }
