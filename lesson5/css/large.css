@@ -158,6 +158,7 @@
     address iframe{
         padding: 1rem;
         display:block;
+        margin-right: 1.1rem;
     }
     address div{
         padding-left: 1rem;
