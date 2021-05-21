@@ -104,7 +104,7 @@
 
     .futureweather {
         display: flex;
-        height: 900 !important;
+        height: 900px !important;
         width: 70%;
         justify-content: space-between;
         align-items: center;
