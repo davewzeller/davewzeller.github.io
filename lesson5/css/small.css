@@ -1,7 +1,10 @@
 body {
-    background-color: #FBFDE5;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fbfde5+0,ebf70e+100&1+0,0+100 */
+background: -moz-linear-gradient(-45deg,  rgba(251,253,229,1) 0%, rgba(235,247,14,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(251,253,229,1) 0%,rgba(235,247,14,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(251,253,229,1) 0%,rgba(235,247,14,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfde5', endColorstr='#00ebf70e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
  
-   
 }
 
 header,
@@ -35,9 +38,11 @@ border-radius: 25px;
 }
 .banner{
     display: none;
+    border:#e2ef4a solid;
 }
 .banner h1{
     font-size: 18px;
+   
     
 }
 .banner h2{
@@ -162,7 +167,7 @@ section {
     border-radius: 25px;
 }
 .heroImage{
-    width: 99%;
+    width: 100%;
     margin-left: -.95rem;
     margin-top: -1rem;
     height: 250px;
@@ -191,6 +196,7 @@ section {
 }
 .imgArticle{
     width: 150px;
+    box-shadow: -6px 17px 21px 5px rgba(0,0,0,0.55);
 }
 .article p{
     font-size: 8px;

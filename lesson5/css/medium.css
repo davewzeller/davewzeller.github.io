@@ -19,6 +19,13 @@
 
 
     }
+    .weatherSummary{
+    
+        left: 35px;
+
+        
+        
+    }
 
     .hero-container {
         position: relative;
@@ -79,15 +86,14 @@
     }
 
     .article {
-        height: 280px;
+        height: 290px;
         padding-left: .75rem !important;
     }
 
     .imgArticle {
         width: 300px;
         float: left;
-        padding-right: 1rem;
-
+       
 
     }
 
