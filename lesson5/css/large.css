@@ -80,12 +80,12 @@
 
     .weather {
         /*WDD 230: Table vs Flex vs Column vs Grid Data Display*/
-        width: 70% ;
+        width: 98% ;
         display: flex;
         /* flex-direction: row; */
         /* let us combine row and wrap with flow */
         flex-flow: row wrap;
-        margin-left: 5rem;
+        margin-left: .5rem;
     }
     
     .weather .day {
