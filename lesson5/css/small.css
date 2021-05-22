@@ -211,6 +211,10 @@ footer div {
   
     color: #000000;
 }
+footer .link{
+    color: black;
+    text-decoration: none;
+}
 
 .clearfix:after{
     content:" ";
