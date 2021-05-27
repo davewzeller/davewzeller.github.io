@@ -1,11 +1,11 @@
 body {
     font-family: Merriweather, sans-serif;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fbfde5+0,ebf70e+100&1+0,0+100 */
-background: -moz-linear-gradient(-45deg,  rgba(251,253,229,1) 0%, rgba(235,247,14,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  rgba(251,253,229,1) 0%,rgba(235,247,14,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  rgba(251,253,229,1) 0%,rgba(235,247,14,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfde5', endColorstr='#00ebf70e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
- 
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9f0a7+20,edcb97+51,f9f0a7+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100 */
+background: -moz-linear-gradient(-45deg,  rgba(249,240,167,0) 0%, rgba(249,240,167,0.8) 15%, rgba(249,240,167,1) 19%, rgba(249,240,167,1) 20%, rgba(237,203,151,1) 51%, rgba(249,240,167,1) 80%, rgba(249,240,167,1) 81%, rgba(249,240,167,0.8) 85%, rgba(249,240,167,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(249,240,167,0) 0%,rgba(249,240,167,0.8) 15%,rgba(249,240,167,1) 19%,rgba(249,240,167,1) 20%,rgba(237,203,151,1) 51%,rgba(249,240,167,1) 80%,rgba(249,240,167,1) 81%,rgba(249,240,167,0.8) 85%,rgba(249,240,167,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(249,240,167,0) 0%,rgba(249,240,167,0.8) 15%,rgba(249,240,167,1) 19%,rgba(249,240,167,1) 20%,rgba(237,203,151,1) 51%,rgba(249,240,167,1) 80%,rgba(249,240,167,1) 81%,rgba(249,240,167,0.8) 85%,rgba(249,240,167,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f9f0a7', endColorstr='#00f9f0a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 header,
@@ -132,12 +132,12 @@ nav {
     border-radius: .5rem;
     padding-bottom: 1rem;
 
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f4b69e+0,5d3b2e+33,5d3b2e+67,d0673e+100 */
-background: rgb(244,182,158); /* Old browsers */
-background: -moz-linear-gradient(-45deg,  rgba(244,182,158,1) 0%, rgba(93,59,46,1) 33%, rgba(93,59,46,1) 67%, rgba(208,103,62,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  rgba(244,182,158,1) 0%,rgba(93,59,46,1) 33%,rgba(93,59,46,1) 67%,rgba(208,103,62,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  rgba(244,182,158,1) 0%,rgba(93,59,46,1) 33%,rgba(93,59,46,1) 67%,rgba(208,103,62,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4b69e', endColorstr='#d0673e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#452c22+0,5d3b2e+12,7b4f3d+24,9b624c+38,c29482+50,c29482+52,9b624c+60,7b4f3d+76,5d3b2e+91,452c22+100 */
+background: rgb(69,44,34); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(69,44,34,1) 0%, rgba(93,59,46,1) 12%, rgba(123,79,61,1) 24%, rgba(155,98,76,1) 38%, rgba(194,148,130,1) 50%, rgba(194,148,130,1) 52%, rgba(155,98,76,1) 60%, rgba(123,79,61,1) 76%, rgba(93,59,46,1) 91%, rgba(69,44,34,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(69,44,34,1) 0%,rgba(93,59,46,1) 12%,rgba(123,79,61,1) 24%,rgba(155,98,76,1) 38%,rgba(194,148,130,1) 50%,rgba(194,148,130,1) 52%,rgba(155,98,76,1) 60%,rgba(123,79,61,1) 76%,rgba(93,59,46,1) 91%,rgba(69,44,34,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(69,44,34,1) 0%,rgba(93,59,46,1) 12%,rgba(123,79,61,1) 24%,rgba(155,98,76,1) 38%,rgba(194,148,130,1) 50%,rgba(194,148,130,1) 52%,rgba(155,98,76,1) 60%,rgba(123,79,61,1) 76%,rgba(93,59,46,1) 91%,rgba(69,44,34,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#452c22', endColorstr='#452c22',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
     
 }
