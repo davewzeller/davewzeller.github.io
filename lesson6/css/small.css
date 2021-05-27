@@ -196,7 +196,7 @@ main .weatherSummary {
 .hero-container {
     position: relative;
     padding: .5rem;
-    width: 98%;
+    width: 100%;
 
     margin-top: 1rem;
     background: none !important;
@@ -215,7 +215,7 @@ section {
 
 .heroImage {
     width: 100%;
-    margin-left: -.95rem;
+   margin-left: -.5rem;
     margin-top: -1rem;
     height: 250px;
 }
