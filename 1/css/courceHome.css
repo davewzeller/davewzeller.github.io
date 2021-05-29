@@ -28,6 +28,7 @@ main {
 .link{
     color: #95d7f3;
     padding-left: .75rem;
+    text-decoration: none;
 }
 li{
     color: #fff;
