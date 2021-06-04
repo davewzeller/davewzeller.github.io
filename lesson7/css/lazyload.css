@@ -1,0 +1,25 @@
+
+header, footer{
+    background-color: navy;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+img{
+    filter: blur(.8em);
+    transition: filter 2s;
+}
+img[data-src]{
+    filter: blur(.8em);
+}
