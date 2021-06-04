@@ -16,10 +16,11 @@ main{
     width: 300px;
     margin: 0 auto;
 }
-img{
-    filter: blur(.8em);
-    transition: filter 2s;
+picture img[data-src] {
+    filter: blur(0.2em);
 }
-img[data-src]{
-    filter: blur(.8em);
+
+picture img{
+    filter: blur (0em);
+    transition: filter 1s;
 }
