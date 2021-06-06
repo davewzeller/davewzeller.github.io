@@ -33,3 +33,5 @@ if ("IntersectionObserver" in window) {
     loadImages(img);
   });
 }
+
+//thank goodness for the lab...also side note data-src is not the same as data-scr :(

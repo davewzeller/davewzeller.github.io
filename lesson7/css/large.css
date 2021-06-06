@@ -201,4 +201,7 @@
         line-height: 1.5rem;
         font-size: .75em;
     }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

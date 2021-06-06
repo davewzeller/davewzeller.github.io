@@ -332,3 +332,9 @@ footer .link {
 address iframe {
     display: none;
 }
+.gallery{
+    grid-template-columns: 1fr;
+}
+.gallery.galeryphoto{
+    border: 5rem blue !important;
+}

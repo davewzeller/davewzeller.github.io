@@ -139,5 +139,8 @@
         /* IE6-9 */
 
     }
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
 
 }
