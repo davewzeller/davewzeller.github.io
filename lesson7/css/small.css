@@ -335,6 +335,6 @@ address iframe {
 .gallery{
     grid-template-columns: 1fr;
 }
-.gallery.galeryphoto{
-    border: 5rem blue !important;
+.galeryphoto:hover{
+    opacity: 1;
 }
