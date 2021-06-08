@@ -179,7 +179,16 @@ nav {
 
 }
 
+main .mainthankyou{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
 
+main .thankyou{
+    width:100%;
+    justify-content: center;
+}
 
 
 main .weatherSummary {
