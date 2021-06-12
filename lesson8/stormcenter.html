@@ -57,7 +57,7 @@
       </label>
       <p>Full Name:</p>
       <label for="fname">
-        <input type="text" name="Full Name" id="fname" minlength="5" value="Homer Simpson"> 
+        <input type="text" name="Full Name" id="fname" minlength="5" value="Homer Simpson" pattern="[A-Za-z]"> 
       </label>
       <p>Email address</p>
       <label for="email">
@@ -68,8 +68,8 @@
         <input type="tel" name="phone" id="phone" value="(311) 555-2368">
       </label>
       <p>Zip Code:</p>
-      <label for="zip">
-        <input type="zip" name="zip" id="zip" minlength="5" size="5" value="98765-4321">
+      <label for="zipcode">
+        <input type="zip" name="zipcode" id="zip" size="5" value="98765-4321">
       </label>
     </div>
 
@@ -93,15 +93,15 @@
 
 
     <label for="stormseverity">
-      <form>
+      
         <p>How sever is the storm (1-10):</p>
-        <label for="vol"></label>
-        <input type="range" id="severity " name="severity " min="0" max="10">
+        
+        <input type="range" id="stormseverity " name="severity " min="0" max="10">
 
-      </form>
+      
 
     </label>
-    <label for="stormregion">
+    
       <form>
         <p>City Name:</p>
         <label for="town"></label>
@@ -110,10 +110,10 @@
           <option value="Soda Springs">Soda Springs</option>
           <option value="Fish Haven">Fish Haven</option>
         </select>
-      </div>  
+      
       </form>
 
-    </label>
+    
 
 
 
