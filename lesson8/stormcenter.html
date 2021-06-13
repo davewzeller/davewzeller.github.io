@@ -49,86 +49,77 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-  <main class='storm'>
-    <div class='personalinfo'>
-      <p>Are you in danger:</p>
-      <label for="danger">
-        <input type="checkbox" id="danger" class="danger ">
-      </label>
-      <p>Full Name:</p>
-      <label for="fname">
-        <input type="text" name="Full Name" id="fname" minlength="5" value="Homer Simpson" pattern="[A-Za-z]"> 
-      </label>
-      <p>Email address</p>
-      <label for="email">
-        <input type="email" name="email" id="email" value="chunkylover53@aol.com">
-      </label>
-      <p>Phone Number:</p>
-      <label for="phone">
-        <input type="tel" name="phone" id="phone" value="(311) 555-2368">
-      </label>
-      <p>Zip Code:</p>
-      <label for="zipcode">
-        <input type="zip" name="zipcode" id="zip" size="5" value="98765-4321">
-      </label>
-    </div>
+  <main>
+      <h1>Please report Here</h1>
+  <form method="GET" action="thankyou.html">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+        <label>Phone Number<input type="tel" name="phone" placeholder="1235551234"></label>
 
-    <div class="fisharebiting">
-    <p>Date:</p>
-    <label for="date">
-      <input type="date" name="date" id="date">
+      </fieldset>
 
-    </label>
-    <p>What kind of storm is it?</p>
-    <label for="stormtype"></label>
-    <input list="type" id="stormtype" name="stormtype" />
-    <datalist id="type">
-      <option value="Rain">
-      <option value="Snow">
-      <option value="Sleet">
-      <option value="Hail">
-      <option value="All Four">
-      <option value="Fish are Biting">
-    </datalist>
+      <fieldset>
+        <legend>Storm Information</legend>
+        <div>Are you In Trouble</div>
+        <label><input type="radio" name="trouble" value="yes">Yes</label>
+        <label><input type="radio" name="trouble" value="No">No</label>
+        <label><input type="radio" name="trouble" value="yesno">Yes but I don't Care</label>
 
+        <div>Date</div>
+        <label><input type="date" name="date"></label>
 
-    <label for="stormseverity">
-      
-        <p>How sever is the storm (1-10):</p>
+        <div>Type of Storm</div>
+        <label>
+          <select name="typeofstorm">
+            <option value="">Please Choose One</option>
+            <option value="Rain">Rain</option>
+            <option value="Snow">Snow</option>
+            <option value="Sleet">Sleet</option>
+            <option value="hail">Hail</option>
+            <option value="all four">Rain, Sleet, Snow and Hail</option>
+            <option value="windy">Windy</option>
+            <option value="yellowstone">Yellowstone Blew Up</option>
+            <option value="Frog">Frogs</option>
+            <option value="thefish">The Fish are Biting</option>
+
+          </select>
+        </label>
+
+        <div>How Sever is the Storm (1-10)</div>
+        <label><input type="range" id="stormseverity " name="severity " min="0" max="10"></label>
+
+        <div>City Name</div>
+        <label>
+          <select name="townstorm">
+            <option value="">Please Choose One</option>
+            <option value="Preston">Preston</option>
+            <option value="Soda Springs">Soda Springs</option>
+            <option value="Fish Haven">Fish Haven</option>
+          </select>
+        </label>
+
         
-        <input type="range" id="stormseverity " name="severity " min="0" max="10">
 
-      
+      </fieldset>      
+      <fieldset>
+        <legend>Any other Information
+          <label>
+            <input type="text" name="extraInfo">          
+          </label>
+        </legend>
 
-    </label>
-    
-      <form>
-        <p>City Name:</p>
-        <label for="town"></label>
-        <select name="town" id="town">
-          <option value="Preston">Preston</option>
-          <option value="Soda Springs">Soda Springs</option>
-          <option value="Fish Haven">Fish Haven</option>
-        </select>
-      
-      </form>
+      </fieldset>
 
     
+      <input type="submit" value="Post Storm Information">
+    
 
+ 
+    
 
-
-
-    <div class="extrastorminfo">
-      
-      <textarea class="otherstorm">Any other helpful information:</textarea>
-    </div>
-    <div class="submit">
-      <a href="thankyou.html">
-      <label for="submit">
-        <input type="submit">
-      </label>
-    </a>
-    </div>
 
 
   </main>
