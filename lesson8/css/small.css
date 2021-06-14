@@ -428,7 +428,7 @@ form label.top, form div{
     display: block;
     padding-top: 1rem;
     color:rgba(216,84,172,1) ;
-    font-size: 1.2rem bold;
+    font-size: 1.2rem;
 }
 form label.top input, form label.top select{
     -webkit-appearance: none;
