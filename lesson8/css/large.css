@@ -209,4 +209,8 @@
         width:70%;
         align-self: center;
     }
+    form label.sbs{
+        padding: .4rem 0;
+
+    }
 }
