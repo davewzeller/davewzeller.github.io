@@ -427,7 +427,7 @@ form legend{
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: red;
+    color:rgba(216,84,172,1) ;
     font-size: 1.2rem bold;
 }
 form label.top input, form label.top select{
@@ -438,7 +438,7 @@ form label.top input, form label.top select{
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
+    width: 85%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1)
 
@@ -452,7 +452,7 @@ form label.sbs{
 }
 form input.submitBtn{
     border: none;
-    background-color:red;
+    background-color:rgba(216,84,172,1) ;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -462,12 +462,12 @@ form input.submitBtn{
 
 }
 form label.top input:required{
-    border-left: red solid 6px;
+    border-left:rgba(216,84,172,1)  solid 6px;
 }
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
 form .extraInfo{
     height: 100px;
-    width: 98%;
+    width: 96%;
 }
