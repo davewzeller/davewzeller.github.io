@@ -472,3 +472,9 @@ form .extraInfo{
     height: 100px;
     width: 96%;
 }
+.clearfix {
+    overflow: auto;
+  }
+  .home div{
+      padding: 5px 5px 5px 5px !important;
+  }
