@@ -12,7 +12,7 @@ fetch(requestURL)//copy of homework
     
         let card = document.createElement('section');//copy of homework
         let h2 = document.createElement('h2');//copy of homework     
-        let h3 = document.createElement('h3');
+        let h3 = document.createElement('h5');
         let year = document.createElement('p');
         let pop = document.createElement('p');
         let rain= document.createElement('p');
@@ -22,11 +22,11 @@ fetch(requestURL)//copy of homework
 
 
         h2.textContent = town[6].name; //+ ' ' + prophets[i].lastname;//copy of homework
-        h3.textContent = 'Town Motto ' + town[6].motto;
-        year.textContent ='Year Founded '+ town[6].yearFounded;
-        pop.textContent ='Population ' + town[6].currentPopulation;
-        rain.textContent ='Rain Fall ' + town[6].averageRainfall;
-        image.setAttribute('scr','images/' + town[6].photo);
+        h3.textContent = town[6].motto;
+        year.textContent ='Year Founded: '+ town[6].yearFounded;
+        pop.textContent ='Population: ' + town[6].currentPopulation;
+        rain.textContent ='Rain Fall: ' + town[6].averageRainfall;
+        image.setAttribute('src','images/' + town[6].photo);
 
        // "preston.jpg",
        
@@ -51,7 +51,7 @@ fetch(requestURL)//copy of homework
 
         let card1 = document.createElement('section');//copy of homework
         let h21 = document.createElement('h2');//copy of homework     
-        let h31 = document.createElement('h3');
+        let h31 = document.createElement('h5');
         let year1 = document.createElement('p');
         let pop1 = document.createElement('p');
         let rain1= document.createElement('p');
@@ -61,11 +61,11 @@ fetch(requestURL)//copy of homework
 
 
         h21.textContent = town[0].name; //+ ' ' + prophets[i].lastname;//copy of homework
-        h31.textContent = 'Town moto ' + town[0].motto;
-        year1.textContent ='Year Founded ' + town[0].yearFounded;
-        pop1.textContent ='Population ' + town[0].currentPopulation;
-        rain1.textContent ='Average Rainfall '+ town[0].averageRainfall;
-        image1.setAttribute('scr','images/' + town[0].photo);
+        h31.textContent = town[0].motto;
+        year1.textContent ='Year Founded: ' + town[0].yearFounded;
+        pop1.textContent ='Population: ' + town[0].currentPopulation;
+        rain1.textContent ='Average Rainfall: '+ town[0].averageRainfall;
+        image1.setAttribute('src','images/' + town[0].photo);
 
        // "preston.jpg",
        
@@ -86,7 +86,7 @@ fetch(requestURL)//copy of homework
 
         let card2 = document.createElement('section');//copy of homework
         let h22 = document.createElement('h2');//copy of homework     
-        let h32 = document.createElement('h3');
+        let h32 = document.createElement('h5');
         let year2 = document.createElement('p');
         let pop2 = document.createElement('p');
         let rain2= document.createElement('p');
@@ -96,11 +96,11 @@ fetch(requestURL)//copy of homework
 
 
         h22.textContent = town[2].name; //+ ' ' + prophets[i].lastname;//copy of homework
-        h32.textContent = 'Town moto ' + town[2].motto;
+        h32.textContent = town[2].motto;
         year2.textContent ='Year Founded ' + town[2].yearFounded;
-        pop2.textContent ='Population ' + town[2].currentPopulation;
-        rain2.textContent ='Average Rainfall '+ town[2].averageRainfall;
-        image2.setAttribute('scr','images/' + town[2].photo);
+        pop2.textContent ='Population: ' + town[2].currentPopulation;
+        rain2.textContent ='Average Rainfall: '+ town[2].averageRainfall;
+        image2.setAttribute('src','images/' + town[2].photo);
 
        // "preston.jpg",
        
