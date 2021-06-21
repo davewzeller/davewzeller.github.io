@@ -73,7 +73,7 @@ fetch(requestURL)//copy of homework
        
        
         //6/0/2
-       
+        
         card1.appendChild(h21);//copy of homework
         card1.appendChild(h31); //add three
         card1.appendChild(pop1);
@@ -86,7 +86,7 @@ fetch(requestURL)//copy of homework
 
         let card2 = document.createElement('section');//copy of homework
         let h22 = document.createElement('h2');//copy of homework     
-        let h32 = document.createElement('h5');
+        let h32 = document.createElement('h6');
         let year2 = document.createElement('p');
         let pop2 = document.createElement('p');
         let rain2= document.createElement('p');
@@ -116,7 +116,7 @@ fetch(requestURL)//copy of homework
         card2.appendChild(rain2);
         card2.appendChild(image2);
 
-        document.querySelector('div.cards1').appendChild(card2);//copy of homework
+        document.querySelector('div.cards2').appendChild(card2);//copy of homework
   });
 
   

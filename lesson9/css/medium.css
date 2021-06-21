@@ -142,6 +142,36 @@
     .gallery{
         grid-template-columns: 1fr 1fr;
         width: 70%;
+        
+    }
+    .home{
+        display: flex;
+        justify-content: space-between;
+        
     }
 
+    .home .three{
+        border: 1px solid #333;
+    
+        width:29%;
+        
+        
+       
+        
+   
+    }
+    .home section{
+        display: block;
+        inline-size: 135px;
+        overflow-wrap: break-word;
+        text-align: center;
+     
+     }
+    .home section img{
+        width: 125px;
+       
+    }
+    section h5, section h6{
+        font-size: 10px;
+    }
 }
