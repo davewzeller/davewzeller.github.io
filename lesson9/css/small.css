@@ -503,7 +503,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a60cce6b', e
 }
 .home section{
     display: block;
-    inline-size: 100%;
+    
     overflow-wrap: break-word;
     text-align: center;
     
