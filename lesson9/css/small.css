@@ -501,16 +501,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a60cce6b', e
     
 
 }
+.home{
+    gap: .75rem;
+}
 .home section{
     display: block;
     
     overflow-wrap: break-word;
     text-align: center;
+
     
  
  }
 .home section img{
-    width: 100%;
+    width: 80%;
    
 }
 section h5, section h6{
