@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Storm Center</title>
+  <meta name="description" content="Storm reporting for the weather page." />
+
+  <link rel="shortcut icon" href="../lesson8/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+
+
+  <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />-->
+
+
+<body>
+  <header>
+    <img src="images/ice.png" alt="Starving Zellers of America logo Bass Jumping" />
+    <div class="headings">
+      <h4>Starving Zellers of America's</h4>
+
+      <div>A guide to the outdoors</div>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">&#9776;</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="#">Soda-Springs</a></li>
+      <li><a href="#">Fish-Haven</a></li>
+      <li><a href="stormcenter.html" class='active'>Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+<main>  
+      <h1>Please report Here</h1>
+  <form method="GET" action="thankyou.html">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label class="top">First Name*<input type="text" name="fname" required></label>
+        <label class="top">Last Name*<input type="text" name="lname" required></label>
+        <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+        <label class="top">Phone Number<input type="tel" name="phone" placeholder="1235551234"></label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Storm Information</legend>
+        <div>Are you In Trouble</div>
+        <label class='sbs'><input type="radio" name="trouble" value="yes">Yes</label>
+        <label class='sbs'><input type="radio" name="trouble" value="No">No</label>
+        <label class='sbs'><input type="radio" name="trouble" value="yesno">Yes but I don't Care</label>
+
+        <div>Date</div>
+        <label class="top"><input type="date" name="date"></label>
+
+        <div>Type of Storm</div>
+        <label for="typeofstorm" class="top">
+          <select name="typeofstorm">
+            <option value="">Please Choose One &#9662;</option>
+            <option value="Rain">Rain</option>
+            <option value="Snow">Snow</option>
+            <option value="Sleet">Sleet</option>
+            <option value="hail">Hail</option>
+            <option value="all four">Rain, Sleet, Snow and Hail</option>
+            <option value="windy">Windy</option>
+            <option value="yellowstone">Yellowstone Blew Up</option>
+            <option value="Frog">Frogs</option>
+            <option value="thefish">The Fish are Biting</option>
+
+          </select>
+        </label>
+
+        <div>How Sever is the Storm (1-10)</div>
+        <label><input type="range" name="severity " min="0" max="10" step="1"></label>
+
+        <div>City Name</div>
+        <label for="townstorm"class="top">
+          <select name="townstorm">
+            <option value="">Please Choose One &#9662;</option>
+            <option value="Preston">Preston</option>
+            <option value="Soda Springs">Soda Springs</option>
+            <option value="Fish Haven">Fish Haven</option>
+          </select>
+        </label>
+
+
+
+      </fieldset>      
+      <fieldset>
+        <legend>Any other Information</legend>
+          <label class="top">
+            <input type="text" name="extraInfo" class='extraInfo'>          
+          </label>
+        
+
+      </fieldset>
+
+    
+      <input type="submit" value="Post Storm Information" class='submitBtn'>
+    
+
+ 
+    
+
+      </form>
+
+  </main>
+
+  <footer>
+    <address>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621732681651!5m2!1sen!2sus"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div>
+        <p>Contact</p>
+        <P>&#128205; 742 Evergreen Terrace</P>
+        <p>&#128231; chunkylover53@aol.com</p>
+        <p>&#128222; (311) 555-2368</p>
+        <a target="https://www.facebook.com/ChurchofJesusChrist/" title="follow me on facebook"
+          href="https://www.facebook.com/ChurchofJesusChrist/"><img alt="follow me on facebook"
+            src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png"></a>
+        <a target="https://www.instagram.com/churchofjesuschrist/?hl=en" title="follow me on instagram"
+          href="https://www.instagram.com/churchofjesuschrist/?hl=en"><img alt="follow me on instagram"
+            src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png"></a>
+        <a target="https://www.pinterest.com/ChurchofJesusChrist/_created/" title="follow me on pinterest"
+          href="https://www.pinterest.com/ChurchofJesusChrist/_created/"><img alt="follow me on pinterest"
+            src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest30x30.png"></a>
+      </div>
+    </address>
+
+
+
+    &copy; <span id="year"></span> | Dave W Zeller | Washington |
+    <a href="../1/index.html" class="link"> Assignment Portal | </a>
+
+    <a href="https://www.byui.edu/online" class="link">
+      BYUI Online Learning</a>
+
+    <p>
+      <a href="images/terms.pdf" class="link"> Terms and conditions </a> | Last
+      Updated: <span id="datemod"></span>
+    </p>
+
+    <script defer src="js/date.js"></script>
+    <script defer src="js/toggleMenu.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/windchill.js"></script>
+
+  </footer>
+</body>
+
+</html>
