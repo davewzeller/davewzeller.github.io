@@ -9,6 +9,8 @@ fetch(apiURL)
     document.querySelector("#temp").textContent= Math.round(jsObject.list[0].main.temp); 
     document.querySelector("#speed").textContent= Math.round(jsObject.list[0].wind.speed); 
     document.querySelector("#humidity").textContent= Math.round(jsObject.list[0].main.humidity); 
+    const desc = jsObject.list[0].weather[0].description; 
+    document.querySelector("#outside").textContent= desc;
 
     
     //future weather
