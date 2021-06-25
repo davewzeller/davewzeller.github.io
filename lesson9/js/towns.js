@@ -17,6 +17,7 @@ fetch(requestURL)//copy of homework
         let pop = document.createElement('p');
         let rain= document.createElement('p');
         let image= document.createElement('img');
+      
 
 
 
@@ -27,6 +28,7 @@ fetch(requestURL)//copy of homework
         pop.textContent ='Population: ' + town[6].currentPopulation;
         rain.textContent ='Rain Fall: ' + town[6].averageRainfall;
         image.setAttribute('src','images/' + town[6].photo);
+        image.setAttribute('alt', 'Image of ' + town[6].name);
 
        // "preston.jpg",
        
@@ -56,6 +58,7 @@ fetch(requestURL)//copy of homework
         let pop1 = document.createElement('p');
         let rain1= document.createElement('p');
         let image1= document.createElement('img');
+        
 
 
 
@@ -66,6 +69,7 @@ fetch(requestURL)//copy of homework
         pop1.textContent ='Population: ' + town[0].currentPopulation;
         rain1.textContent ='Average Rainfall: '+ town[0].averageRainfall;
         image1.setAttribute('src','images/' + town[0].photo);
+        image1.setAttribute('alt', 'Image of ' + town[0].name);
 
        // "preston.jpg",
        
@@ -101,6 +105,7 @@ fetch(requestURL)//copy of homework
         pop2.textContent ='Population: ' + town[2].currentPopulation;
         rain2.textContent ='Average Rainfall: '+ town[2].averageRainfall;
         image2.setAttribute('src','images/' + town[2].photo);
+        image2.setAttribute('alt', 'Image of ' + town[2].name);
 
        // "preston.jpg",
        

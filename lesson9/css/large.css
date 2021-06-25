@@ -231,7 +231,7 @@
     }
     .home section{
        display: block;
-       inline-size: 175px;
+    
        overflow-wrap: break-word;
        text-align: center;
     

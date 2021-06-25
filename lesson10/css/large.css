@@ -1,0 +1,247 @@
+@media only screen and (min-width: 781px) {
+
+    header,
+    footer {
+        margin: 0 auto;
+        padding: .5rem;
+        max-width: 70%;
+
+    }
+
+    header {
+
+        line-height: .7rem;
+    }
+
+    .banner h1 {
+        font-size: 25px;
+    }
+
+    .banner h2 {
+        font-size: 23px;
+    }
+
+
+    header img {
+        float: left;
+        padding-top: 0;
+
+    }
+
+    header div {
+        margin-top: -20px;
+    }
+
+    .heroImage {
+        max-width: 103%;
+
+    }
+
+    nav {
+        width: 70%;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    main {
+        margin: 0 auto;
+        max-width: 70%;
+        
+    }
+
+    main header {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    main .thankyou{
+        height: 400px;
+    }
+
+    .futureweather {
+        margin-left: 10px;
+    }
+
+    footer {
+        max-width: 70%;
+
+    }
+
+    header h4 {
+        letter-spacing: 1pt;
+
+        font-size: 2rem;
+
+    }
+
+    header div {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 1.5em;
+    }
+
+
+    .weather {
+        /*WDD 230: Table vs Flex vs Column vs Grid Data Display*/
+        width: 98%;
+        display: flex;
+        /* flex-direction: row; */
+        /* let us combine row and wrap with flow */
+        flex-flow: row wrap;
+        margin-left: .5rem;
+    }
+
+    .weather .day {
+        flex: 1 1 auto;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
+        background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#001e5799', GradientType=0);
+        /* IE6-9 */
+
+    }
+
+    .weather .day,
+    .weather .column-col,
+    .weather .grid-col {
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        text-align: center;
+    }
+
+    .weather,
+    .weather .column,
+    .weather .grid {
+        border-right: 1px solid #333;
+    }
+
+    .weather .head {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #333;
+        text-align: center;
+    }
+
+    .weather img {
+        width: 60px;
+        border-radius: 100px;
+        padding: 0.25rem;
+    }
+
+    .weather .data {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .weather .head,
+    .weather th {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+    }
+
+
+    .article {
+        height: 480px;
+        padding-left: .75rem !important;
+    }
+
+    .imgArticle {
+        width: 350px;
+        float: left;
+        margin-left: 2rem;
+        margin-right: 3rem;
+
+    }
+
+    .article p {
+        font-size: .85rem;
+        margin: 1rem auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    address {
+        display: flex;
+
+    }
+
+    address iframe {
+        width: 65%;
+        padding: .5rem;
+        display: block;
+        margin-right: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    address div {
+        padding-left: .5rem;
+        text-align: left;
+        line-height: 1.5rem;
+        font-size: .75em;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        width:70%;
+        align-self: center;
+    }
+    form label.sbs{
+        padding: .4rem 0;
+
+    }
+    .home{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .home .three{
+        border: 1px solid #333;
+        margin: .5rem .5rem .5rem .5rem;
+        width:31%;
+        
+        
+       
+        
+   
+    }
+    .home section{
+       display: block;
+    
+       overflow-wrap: break-word;
+       text-align: center;
+    
+    }
+    .home section img{
+        width: 175px;
+       
+    }
+    section h5, section h6{
+        font-size: 10px;
+    }
+
+}
