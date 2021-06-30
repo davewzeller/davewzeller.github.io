@@ -15,6 +15,13 @@ fetch(apiURL)
     
     //future weather
 
+
+
+
+    const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];  
+
+
+
     //day1
     document.querySelector("#day1").textContent= Math.round(jsObject.list[8].main.temp);  
     
@@ -23,6 +30,9 @@ fetch(apiURL)
     document.getElementById('icon1').setAttribute('src', imagesrc1);  // focus on the setAttribute() method
     document.getElementById('icon1').setAttribute('alt', desc1);
     
+    
+
+
     //day2
     document.querySelector("#day2").textContent= Math.round(jsObject.list[16].main.temp);  
     
@@ -49,15 +59,18 @@ fetch(apiURL)
     document.getElementById('icon4').setAttribute('src', imagesrc4);  // focus on the setAttribute() method
     document.getElementById('icon4').setAttribute('alt', desc4);
     
+    
     //day 5
 
     document.querySelector("#day5").textContent= Math.round(jsObject.list[39].main.temp);  
     
-    const imagesrc5 = 'https://openweathermap.org/img/w/' + jsObject.list[5].weather[0].icon + '.png';   // note the concatenation
+    const imagesrc5 = 'https://openweathermap.org/img/w/' + jsObject.list[39].weather[0].icon + '.png';   // note the concatenation
     const desc5 = jsObject.list[39].weather[0].description;  // note how we reference the weather array
     document.getElementById('icon5').setAttribute('src', imagesrc5);  // focus on the setAttribute() method
     document.getElementById('icon5').setAttribute('alt', desc5);
-
+    
+  
+  
 
 
  
