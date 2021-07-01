@@ -205,11 +205,12 @@ main .weatherSummary {
 
 .hero-container {
     position: relative;
-    padding: .5rem;
+    /*padding: .5rem;*/
     width: 100%;
-
-    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     background: none !important;
+    
 }
 
 /*section {
@@ -225,9 +226,13 @@ main .weatherSummary {
 
 .heroImage {
     width: 100%;
-   margin-left: -.5rem;
-    margin-top: -1rem;
+  /* margin-left: -.5rem;*/
+    margin-top: 1rem;
+  
     height: 250px;
+    border-radius: 2rem;
+    -webkit-box-shadow: 11px -10px 15px 9px rgba(14,13,25,0.91); 
+    box-shadow: 11px -10px 15px 9px rgba(14,13,25,0.91);
 }
 
 .weatherSummary {
@@ -534,11 +539,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    width:350px;
+    width:100%;
     place-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
+    margin-left: 0;
     
     
 
