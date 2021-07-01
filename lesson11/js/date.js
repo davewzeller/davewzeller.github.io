@@ -9,8 +9,6 @@ document.querySelector("#datemod").textContent =
 
 if (d.getDay() == 5) {
   document.querySelector(".banner").style.display = "block";
-} else {
-  document.querySelector(".banner").style.display = "none";
-}
+};
 
 //team effort
