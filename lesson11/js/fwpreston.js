@@ -47,7 +47,7 @@ fetch(fwURL)
         pic[x].setAttribute("alt", "Weather Image");
         x++;
 
-        x++;
+      
 
 
 
