@@ -9,7 +9,7 @@ fetch(requestURL)//copy of homework
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const prophets = jsonObject['prophets'];//copy of homework
 
-    for (let i = 0; i < prophets.length; i++ ) { //copy of homework
+    for (let i = 0; i < response.length; i++ ) { //copy of homework
        
         let card = document.createElement('section');//copy of homework
         let h2 = document.createElement('h2');//copy of homework
