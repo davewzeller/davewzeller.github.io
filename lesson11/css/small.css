@@ -311,11 +311,14 @@ footer .link {
 
 .weather {
     display: none;
+    text-decoration: none;
+    
+    text-decoration:none;
+    padding: 0 auto !important;
 
-    margin-left: -5rem;
+    
 }
 
-/*help from w3shools*/
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -349,6 +352,8 @@ address iframe {
 }
 .gallery{
     grid-template-columns: 1fr;
+   
+    padding-left: 20px;
 }
 .galeryphoto:hover{
     opacity: 1;

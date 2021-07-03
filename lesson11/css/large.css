@@ -101,14 +101,17 @@
 
     .weather {
         /*WDD 230: Table vs Flex vs Column vs Grid Data Display*/
-        width: 98%;
+        width: 100%;
         display: flex;
         /* flex-direction: row; */
         /* let us combine row and wrap with flow */
-        flex-flow: row wrap;
-        margin-left: .5rem;
+        
+        margin-left: -2rem;
     }
-
+    .weather ul{
+        text-decoration: none;
+        
+    }
     .weather .day {
         flex: 1 1 auto;
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
@@ -120,7 +123,7 @@
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#001e5799', GradientType=0);
         /* IE6-9 */
-
+        text-decoration: none;
     }
 
     .weather .day,
@@ -205,11 +208,7 @@
         line-height: 1.5rem;
         font-size: .75em;
     }
-    main.gallery{
-        grid-template-columns: 1fr 1fr 1fr;
-        width:70%;
-        align-self: center;
-    }
+  
     form label.sbs{
         padding: .4rem 0;
 
@@ -230,7 +229,7 @@
    
     }
     .home section{
-       display: block;
+       display: block !important;
     
        overflow-wrap: break-word;
        text-align: center;
@@ -244,6 +243,20 @@
         font-size: 10px;
     }
    
-    
+    .home section .h2{
+        font-size: 1.5rem;
+    }  
+  .gallery{
+       
+        padding-left: 85px;
+    }  
+        .gallery picture{
+            margin: .5rem .8rem  !important;
+           
+        }
+        .gallery img{
+            width: 25%;
+           
+        }
 
 }

@@ -18,41 +18,42 @@ fetch(apiURL)
 
   
     
-const fwURL = "https://api.openweathermap.org/data/2.5/forecast\\?id=5604473&cnt=6&units=imperial&appid=666b87a823c8e0400b1ab1648c657442";
+//const fwURL = "https://api.openweathermap.org/data/2.5/forecast\\?id=5604473&units=imperial&appid=666b87a823c8e0400b1ab1648c657442";
 
   
 
-const daysofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];  
+const dWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];  
 
-fetch(fwURL)
+fetch(apiURL)
   .then((response) => response.json())
   .then((response) => {
     console.log(response);
 
 
     let x = 0;
-    let temp = document.querySelectorAll('#temps');
-    let day = document.querySelectorAll('#weekday');
-    let pic = document.querySelector('#icon');
+    let temp = document.querySelectorAll('.data');
+    let day = document.querySelectorAll('.head');
+    let pic = document.querySelectorAll('.icon');
     let list = response.list;
   
     for (item of list) {
-      if (item.dt_txt.includes("18:00:00")) {
-        let date = new Date(item.dt * 1000);
+      if (item.dt_txt.includes("18:00:00")){
 
-        temp[x].textContent = item.main.temp;
-        day[x].innerHTML =  daysofWeek[date.getDay()];
-        let img = "https://openweathermap.org/img/w/" + item.weather[0].icon + ".png";
-        pic[x].setAttribute("src", img);
+        let date = new Date(item.dt * 1000);
+  
+        temp[x].innerHTML = Math.round(item.main.temp);
+        day[x].innerHTML =  dWeek[date.getDay()];
+        let img ="https://openweathermap.org/img/w/" + item.weather[0].icon + ".png";
+        pic[x].setAttribute("src",img);
         pic[x].setAttribute("alt", "Weather Image");
         x++;
-
       
-
+///// I have the greatest team of all time :)
 
 
 
       }
+      
     }
 
   });
