@@ -351,12 +351,23 @@ address iframe {
     display: none;
 }
 .gallery{
-    grid-template-columns: 1fr;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1px; 
+    width: 100%;
+    justify-content: center;
    
-    padding-left: 20px;
+    
 }
-.galeryphoto:hover{
-    opacity: 1;
+.gallery figure{
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 305px;
+    
+}
+.gallery img:hover{
+    opacity: .8;
 }
 .storm{
     display: block;
@@ -530,9 +541,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a60cce6b', e
 section h5, section h6{
     font-size: 10px;
 }
-main.gallery{
-    grid-template-columns: 1fr;
-}
+
 .upcoming{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
 background: rgb(179,220,237); /* Old browsers */

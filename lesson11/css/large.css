@@ -246,17 +246,17 @@
     .home section .h2{
         font-size: 1.5rem;
     }  
-  .gallery{
-       
-        padding-left: 85px;
-    }  
-        .gallery picture{
-            margin: .5rem .8rem  !important;
-           
-        }
-        .gallery img{
-            width: 25%;
-           
-        }
 
+    .gallery{
+        margin-left: 5rem;
+        gap: -5rem; 
+    }
+    .gallery figure{
+        width: 200px;
+        gap: 1px;
+
+    }
+    .gallery img{
+        width: 95%;
+    }
 }

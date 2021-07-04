@@ -204,22 +204,14 @@
         grid-column: 2/3;
         
     }
-
     .gallery{
-        display: block;
-       grid-template-columns: 1fr 1fr !important;
-       padding-left: 45px;
-        
-
-        
+        margin-left: 5rem;
+        width: 70%
     }
-    .gallery picture{
-        margin: .5rem .2rem  !important;
-        
+    .gallery figure{
+        width: 150px;
     }
     .gallery img{
-        width: 200px;
-       
+        width: 95%;
     }
-
 }
