@@ -69,7 +69,7 @@
         <label class='sbs'><input type="radio" name="trouble" value="yesno">Yes but I don't Care</label>
 
         <div>Date</div>
-        <label class="top"><input type="date" name="date"></label>
+        <label for='date' id='date' class="top"><input type="date" name="date"></label>
 
         <div>Type of Storm</div>
         <label id="typeofstorm" class="top">
@@ -89,10 +89,10 @@
         </label>
 
         <div>How Sever is the Storm (1-10)</div>
-        <label><input type="range" name="severity " min="0" max="10" step="1"></label>
+        <label for='storm severity' id='storm severity'><input type="range" name="severity " min="0" max="10" step="1"></label>
 
         <div>City Name</div>
-        <label for="townstorm" class="top">
+        <label for="townstorm" id="top" class="top">
           <select >
             <option value="">Please Choose One &#9662;</option>
             <option value="Preston">Preston</option>
