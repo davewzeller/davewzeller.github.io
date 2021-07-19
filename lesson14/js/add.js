@@ -14,11 +14,11 @@ fetch(requestURL)//copy of homework
         let h2 = document.createElement('h2');//copy of homework
         
 
-        let disc = document.createElement('p');
-        let address = document.createElement('p');
-        let phone = document.createElement('p');
-        let photo = document.createElement('img');
-        let photo = document.createElement('p');
+        let disc = document.createElement('p')
+        let address = document.createElement('p')
+        let phone = document.createElement('p')
+        let photo = document.createElement('img')
+        let photo = document.createElement('p')
 
 
         h2.textContent = add[i].name;//copy of homework
@@ -26,7 +26,7 @@ fetch(requestURL)//copy of homework
         address.textContent = add[i].address;//added There
         phone.textContent = add[i].phone;
         photo.setAttribute('src', add[i].imageurl);
-        photo.setAttribute('alt' , add[i].name + i);
+        photo.setAttribute('alt' , add[i].name);
        
        
        
