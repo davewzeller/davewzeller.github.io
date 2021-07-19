@@ -1,12 +1,16 @@
 {
     "prophets": [
       {
-        "name": "Safeway",
-        "disc": "An American SuperMarket",
-        "phone": "(360) 891-4254",
-        "address": "13719 SE Mill Plain Blvd",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
+        "name": "Joseph",
+        "lastname": "Smith",
+        "birthdate": "23 December 1805",
+        "death": "27 June 1844",
+        "length": 14,
+        "order": 1,
+        "birthplace": "Vermont",
+        "numofchildren": 11,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
       }
-     
+      
     ]
   }
