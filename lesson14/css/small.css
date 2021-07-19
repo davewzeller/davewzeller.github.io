@@ -302,10 +302,7 @@ h1{
     color: #4d4d96;
     font-family:  Shippori Mincho B1;
 }
-footer{
-    padding-top: .5rem ;
-    font-size: 2rem;
-}
+
 p{
     line-height: .50rem;
 }
@@ -323,9 +320,4 @@ p{
         height: 60%;
         
     }
-    h1{
-        font-size: 1rem;
-    }
-    footer{
-         font-size: 1rem;
-    }
+

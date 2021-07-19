@@ -36,18 +36,18 @@
         "imageurl": "https://davewzeller.github.io/lesson14/image/english.png"
       },
       {
-        "name": "Safeway",
-        "lastname": "An American SuperMarket",
-        "death": "27 June 1844",
-        "birthplace": "(360) 891-4254",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway.png"
+        "name": "Tim's Repair Shop",
+        "lastname": "Never Give up on a Car",
+        "death": "(360) 555-1234",
+        "birthplace": "11314 SE 19TH Stree",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/tim.png"
       },
       {
-        "name": "Safeway",
-        "lastname": "An American SuperMarket",
-        "death": "27 June 1844",
-        "birthplace": "(360) 891-4254",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway.png"
+        "name": "Sportsman's Warehouse",
+        "lastname": "American outdoor sporting goods.",
+        "death": "(360) 604-8000",
+        "birthplace": "11505 NE Fourth Plain RD.",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/sportsman.png"
       }
 
     ]
