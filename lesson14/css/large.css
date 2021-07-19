@@ -53,4 +53,17 @@
         width:235px;
         height: 235px;
     }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: .75rem;
+    
+        
+      }
+     img{
+        box-shadow: 7px 7px 7px 7px #767689, 7px 7px 7px 7px #989ba9;
+        width: 55%;
+        height: 60%;
+        
+    }
 }
