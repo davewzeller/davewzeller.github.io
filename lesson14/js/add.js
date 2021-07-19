@@ -15,7 +15,7 @@ fetch(requestURL)//copy of homework
        
 
        
-       let death = document.createElement('p')
+        let death = document.createElement('p')
         let lastname = document.createElement('p')
         let birthplace = document.createElement('p')
         let photo = document.createElement('img')
@@ -24,7 +24,7 @@ fetch(requestURL)//copy of homework
 
         h2.textContent = prophets[i].name;//copy of homework
         lastname.textContent=prophets[i].lastname;
-       death.textContent=prophets[i].death;
+        death.textContent=prophets[i].death;
         
         birthplace.textContent = prophets[i].birthplace;
         photo.setAttribute('src', prophets[i].imageurl);
