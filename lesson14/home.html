@@ -20,9 +20,14 @@
     <link rel="stylesheet" href="css/large.css" />
 </head>
 <header>
+
     <img class='icon' src="image/icon.png" >
     <h1>Welcome to the City of Commerce for Vancouver</h1>
 </header>
+<div class="banner">
+    <h1>Weather Alert</h1>
+    <h2 class='alert'></h2#>
+  </div>
 <nav>
     <ul class="navigation">
       <li><a class="ham" href="#">&#9776;</a></li>
@@ -37,6 +42,25 @@
   </nav>
 <body>
     <main>
+        <div class="hero-container">
+            <picture>
+            <img class="heroImage" src="image/skyline.png" alt="vancouver skyline"/>           
+            </picture>
+            <div class="weatherSummary">
+              <h4>Weather Summary</h4>
+              <p>Currently: <span class="outside" id='outside'></span></p>
+              <p>Temperature: <span id="temp"></span></p>
+              <p>Humidity: <span id="humidity"></span></p>
+            </div>
+        </div>  
+    
+          <ul class="weather">
+            <li class="day"><div class="head"></div><img class="icon" src="" alt=""><div class="data"></div></li>
+            <li class="day"><div class="head"></div><img class="icon" src="" alt=""><div class="data"></div></li>
+            <li class="day"><div class="head"></div><img class="icon" src="" alt=""><div class="data"></div></li>
+          </ul>
+
+
         <div class="homepage">
         <section class="add">
             <h4>Dan Barns</h4>
@@ -75,6 +99,7 @@
     </address>
 </footer>
 <script src="js/hamburger.js"></script>
+<script src="js/fwpreston.js"></script>
     
 </body>
 </html>
