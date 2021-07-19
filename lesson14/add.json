@@ -1,54 +1,53 @@
 {
-    "prophets": [
-      {
-        "name": "Safeway",
-        "lastname": "An American SuperMarket",
-        "death": "(360) 891-4254",
-        "birthplace": "13719 SE Mill Plain Blvd",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway.png"
-      },
-      {
-        "name": "Claire's",
-        "lastname": "Jewelry & Fashion Accessories",
-        "death": "(360) 896-1965",
-        "birthplace": "8700 NE Vancouver Mall Dr #115",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/clair.png"
-      },
-      {
-        "name": "Fred Meyer",
-        "lastname": "Fresh For Everyone",
-        "death": "(360) 253-7053 ",
-        "birthplace": "11325 Se Mill Plain Blvd",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/fred.png"
-      },
-      {
-        "name": "Firstenburg Aquatics",
-        "lastname": "Community Swimming Area",
-        "death": "(360) 487-7011",
-        "birthplace": "700 NE 136th ave",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/swimming.png"
-      },
-      {
-        "name": "The English Pit Shooting Range",
-        "lastname": "The only public shooting range",
-        "death": "(360) 326-8341",
-        "birthplace": "820 NE 192 Ave",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/english.png"
-      },
-      {
-        "name": "Tim's Repair Shop",
-        "lastname": "Never Give up on a Car",
-        "death": "(360) 555-1234",
-        "birthplace": "11314 SE 19TH Stree",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/tim.png"
-      },
-      {
-        "name": "Sportsman's Warehouse",
-        "lastname": "American outdoor sporting goods.",
-        "death": "(360) 604-8000",
-        "birthplace": "11505 NE Fourth Plain RD.",
-        "imageurl": "https://davewzeller.github.io/lesson14/image/sportsman.png"
-      }
+  "prophets": [{
+      "name": "Safeway",
+      "lastname": "An American SuperMarket",
+      "death": "(360) 891-4254",
+      "birthplace": "13719 SE Mill Plain Blvd",
+      "imageurl": "https://davewzeller.github.io/lesson14/image/safeway.png"
+    },
+    {
+      "name": "Claire's",
+      "lastname": "Jewelry & Fashion Accessories",
+      "death": "(360) 896-1965",
+      "birthplace": "8700 NE Vancouver Mall Dr #115",
+      "imageurl": "https://davewzeller.github.io/lesson14/image/clair.png"
+    },
+    {
+      "name": "Fred Meyer",
+      "lastname": "Fresh For Everyone",
+      "death": "(360) 253-7053 ",
+      "birthplace": "11325 Se Mill Plain Blvd",
+      "imageurl": "https://davewzeller.github.io/lesson14/image/fred.png"
+    },
+    {
+      "name": "Firstenburg Aquatics",
+      "lastname": "Community Swimming Area",
+      "death": "(360) 487-7011",
+      "birthplace": "700 NE 136th ave",
+      "imageurl": "https://davewzeller.github.io/lesson14/image/swimming.png"
+    },
+    {
+      "name": "The English Pit Shooting Range",
+      "lastname": "The only public shooting range",
+      "death": "(360) 326-8341",
+      "birthplace": "820 NE 192 Ave",
+      "imageurl": "https://davewzeller.github.io/lesson14/image/english.png"
+    },
+    {
+      "name": "Tim's Repair Shop",
+      "lastname": "Never Give up on a Car",
+      "death": "(360) 555-1234",
+      "birthplace": "11314 SE 19TH Stree",
+      "imageurl": "https://davewzeller.github.io/lesson14/image/tim.png"
+    },
+    {
+      "name": "Sportsman's Warehouse",
+      "lastname": "American outdoor sporting goods.",
+      "death": "(360) 604-8000",
+      "birthplace": "11505 NE Fourth Plain RD.",
+      "imageurl": "https://davewzeller.github.io/lesson14/image/sportsman.png"
+    }
 
-    ]
-  }
+  ]
+}
