@@ -7,9 +7,9 @@ fetch(requestURL)//copy of homework
   })
   .then(function (jsonObject) {//copy of homework
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];//copy of homework
+    const card = jsonObject['card'];//copy of homework
 
-    for (let i = 0; i < prophets.length; i++ ) { //copy of homework
+    for (let i = 0; i < card.length; i++ ) { //copy of homework
         let card = document.createElement('section');//copy of homework
         let h2 = document.createElement('h2');//copy of homework
        
@@ -21,12 +21,12 @@ fetch(requestURL)//copy of homework
 
 
 
-        h2.textContent = prophets[i].name;//copy of homework
+        h2.textContent = card[i].name;//copy of homework
        
-        birthdate.textContent =prophets[i].birthdate;//added There
-        birthplace.textContent = prophets[i].birthplace;
-        photo.setAttribute('src', prophets[i].imageurl);
-        photo.setAttribute('alt' , prophets[i].name + i);
+        birthdate.textContent =card[i].birthdate;//added There
+        birthplace.textContent = card[i].birthplace;
+        photo.setAttribute('src', card[i].imageurl);
+        photo.setAttribute('alt' , card[i].name + i);
        
        
        
