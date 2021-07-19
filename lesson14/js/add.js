@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json';
+const requestURL = 'https://davewzeller.github.io/lesson14/add.json';
 
 
 fetch(requestURL)//copy of homework
