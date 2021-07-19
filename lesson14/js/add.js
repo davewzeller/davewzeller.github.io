@@ -15,7 +15,8 @@ fetch(requestURL)//copy of homework
        
 
        
-        let birthdate = document.createElement('p')
+        let disc = document.createElement('p')
+        let death = document.createElement('p')
         let birthplace = document.createElement('p')
         let photo = document.createElement('img')
 
@@ -23,10 +24,11 @@ fetch(requestURL)//copy of homework
 
         h2.textContent = prophets[i].name;//copy of homework
        
-        birthdate.textContent =prophets[i].birthdate;//added There
+        birthdate.textContent =prophets[i].disc;//added There
         birthplace.textContent = prophets[i].birthplace;
         photo.setAttribute('src', prophets[i].imageurl);
         photo.setAttribute('alt' , prophets[i].name);
+        death.textContent= prophets[i].death;
        
        
        
@@ -35,8 +37,9 @@ fetch(requestURL)//copy of homework
         card.appendChild(h2);//copy of homework
 
 
-        card.appendChild(birthdate); //add three
+        card.appendChild(disc); //add three
         card.appendChild(birthplace);
+        card.appendChild(death);
         card.appendChild(photo);
 
 
