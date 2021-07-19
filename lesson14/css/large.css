@@ -1,0 +1,56 @@
+@media only screen and (min-width: 781px) {
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    main .thankyou{
+        height: 25rem;
+        
+    }
+    body .board{
+    
+        font-size: .9rem
+    }
+    footer iframe{
+        float: left;
+        display: inline;
+        padding-right: 3rem;
+    }
+    .city, .homepage {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1px;
+        margin-left: 3rem;
+       
+        
+     }
+
+    figure, .homepage section {
+       width:245px;
+      text-align: center;
+        background-color: #fff;
+    }
+    figure h1, figcaption{
+        font-size: .7rem;
+       
+    }
+    figure img, figure iframe, .homepage section img{
+        width:235px;
+        height: 235px;
+    }
+}
