@@ -40,18 +40,26 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1px;
-        margin-left: 3rem;
+        margin-left: 1rem;
 
 
     }
 
-    figure,
+   
     .homepage section {
         width: 245px;
         text-align: center;
         background-color: #fff;
+        
     }
 
+    figure{
+       
+            width: 250px;
+            margin: 5px !important;
+           
+        
+    }
     figure h1,
     figcaption {
         font-size: .7rem;

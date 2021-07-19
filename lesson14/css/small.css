@@ -48,20 +48,21 @@ header {
     display: block;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: icon, h1;
-    height: 70px;
+    height: 80px;
+    margin-top: 0;
 }
 
 header h1 {
     grid-area: h1;
     margin-left: 25%;
-    float: center;
+
     font-size: 20px;
 }
 
 header .icon {
     float: left;
     height: 65px;
-    grid-area: icon;
+    
 
 }
 
@@ -300,6 +301,7 @@ body .board {
 
 figure {
     width: 350px;
+    margin: 5px !important;
 
 }
 
