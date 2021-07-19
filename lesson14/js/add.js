@@ -15,31 +15,30 @@ fetch(requestURL)//copy of homework
        
 
        
-        let slogan = document.createElement('p')
-        let death = document.createElement('p')
+       
+        let lastname = document.createElement('p')
         let birthplace = document.createElement('p')
         let photo = document.createElement('img')
 
 
 
         h2.textContent = prophets[i].name;//copy of homework
+        lastname.textContent=prophets[i].lastname;
        
-        birthdate.textContent =prophets[i].slogan;//added There
+        
         birthplace.textContent = prophets[i].birthplace;
         photo.setAttribute('src', prophets[i].imageurl);
         photo.setAttribute('alt' , prophets[i].name);
-        death.textContent= prophets[i].death;
        
        
        
         
        
         card.appendChild(h2);//copy of homework
+        card.appendChild(lastname)
 
-
-        card.appendChild(slogan); //add three
+        
         card.appendChild(birthplace);
-        card.appendChild(death);
         card.appendChild(photo);
 
 
