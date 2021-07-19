@@ -1,4 +1,4 @@
-const requestURL = 'https://davewzeller.github.io/lesson14/prophets.json';
+const requestURL = 'https://davewzeller.github.io/lesson14/add.json';
 
 
 fetch(requestURL)//copy of homework
@@ -21,12 +21,12 @@ fetch(requestURL)//copy of homework
 
 
 
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;//copy of homework
+        h2.textContent = prophets[i].name;//copy of homework
        
-        birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;//added There
-        birthplace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
+        birthdate.textContent =prophets[i].birthdate;//added There
+        birthplace.textContent = prophets[i].birthplace;
         photo.setAttribute('src', prophets[i].imageurl);
-        photo.setAttribute('alt' , prophets[i].name + '' + prophets[i].lastname +'-'+ i);
+        photo.setAttribute('alt' , prophets[i].name + i);
        
        
        
