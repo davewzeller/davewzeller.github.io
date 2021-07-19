@@ -3,24 +3,51 @@
       {
         "name": "Safeway",
         "lastname": "An American SuperMarket",
-        "birthdate": "98683",
         "death": "27 June 1844",
-        "length": 14,
-        "order": 1,
         "birthplace": "(360) 891-4254",
-        "numofchildren": 11,
         "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
       },
       {
-        "name": "Brigham",
-        "lastname": "Young",
-        "birthdate": "01 June 1801",
-        "death": "29 August 1877",
-        "length": 30,
-        "order": 2,
-        "birthplace": "Vermont",
-        "numofchildren": 56,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "name": "Safeway",
+        "lastname": "An American SuperMarket",
+        "death": "27 June 1844",
+        "birthplace": "(360) 891-4254",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
+      },
+      {
+        "name": "Safeway",
+        "lastname": "An American SuperMarket",
+        "death": "27 June 1844",
+        "birthplace": "(360) 891-4254",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
+      },
+      {
+        "name": "Safeway",
+        "lastname": "An American SuperMarket",
+        "death": "27 June 1844",
+        "birthplace": "(360) 891-4254",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
+      },
+      {
+        "name": "Safeway",
+        "lastname": "An American SuperMarket",
+        "death": "27 June 1844",
+        "birthplace": "(360) 891-4254",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
+      },
+      {
+        "name": "Safeway",
+        "lastname": "An American SuperMarket",
+        "death": "27 June 1844",
+        "birthplace": "(360) 891-4254",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
+      },
+      {
+        "name": "Safeway",
+        "lastname": "An American SuperMarket",
+        "death": "27 June 1844",
+        "birthplace": "(360) 891-4254",
+        "imageurl": "https://davewzeller.github.io/lesson14/image/safeway_logo.jpg"
       }
 
     ]
