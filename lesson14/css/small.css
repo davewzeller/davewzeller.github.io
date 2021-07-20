@@ -117,7 +117,6 @@ p {
 header {
     display: block;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas: icon, h1;
     height: 80px;
     margin-top: 0;
 }
@@ -409,7 +408,6 @@ figure iframe,
 
 .cards section {
     display: block;
-    grid-column: 1fr;
     text-align: center;
     height: 20rem;
     padding: 1px 3px 1px 1px;
@@ -451,7 +449,7 @@ figure iframe,
 
 .cards h2 {
     font-size: 1rem;
-    color: black bold;
+    color: black;
     font-family: Shippori Mincho B1;
 
 
