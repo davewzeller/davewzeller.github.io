@@ -11,13 +11,15 @@
         font-size: 25px;
     }
 
-    body .board {
+    .board {
         display: flex;
        
-        gap: 7px;
+       
         font-size: .5rem
     }
-
+    .board section{
+        padding: .5rem;
+    }
     .city,
     .homepage {
         display: grid;
