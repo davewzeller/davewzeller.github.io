@@ -1,19 +1,33 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=45.62&lon=-122.67&units=imperial&appid=666b87a823c8e0400b1ab1648c657442";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast\\?lat=45.62&lon=-122.67&units=imperial&appid=666b87a823c8e0400b1ab1648c657442";
 
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    
-    document.querySelector("#temp").textContent= Math.round(jsObject.list[0].current.temp); 
-    document.querySelector("#speed").textContent= Math.round(jsObject.list[0].current.speed); 
-    document.querySelector("#humidity").textContent= Math.round(jsObject.list[0].current.humidity); 
-    const desc = jsObject.list[0].weather[0].description; 
-    document.querySelector("#outside").textContent= desc;
-  });
-    
+  
+    document.getElementById('temp').innerHTML=Math.round(jsObject.list[0].main.temp);
+    document.getElementById('outside').innerHTML=jsObject.list[0].weather[0].description;
+    document.getElementById('humidity').innerHTML=Math.round(jsObject.list[0].main.humidity);
 
+
+    
+   /* const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';   // note the concatenation
+    const desc = jsObject.list[0].weather[0].description;  // note how we reference the weather array
+    document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
+    document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+    document.getElementById('icon').setAttribute('alt', desc);*/
+
+      });
+  
+      
+    
+    //future weather
+
+
+  
+    
+//const fwURL = "https://api.openweathermap.org/data/2.5/forecast\\?id=5604473&units=imperial&appid=666b87a823c8e0400b1ab1648c657442";
 
   
 

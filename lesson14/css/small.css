@@ -85,7 +85,8 @@ body {
     opacity: .8;
     color: white;
     line-height: .75rem;
-
+    background-color: black;
+    padding:1rem;
 
 }
 
@@ -93,13 +94,30 @@ body {
     float: right;
 }
 .weather {
-    display: none;
+    color: white;
     text-decoration: none;
+    list-style: none;
+   
+    display: none;
     
-    text-decoration:none;
-    padding: 0 !important;
 
     
+}
+.weather .day{
+    font-size: 2rem;
+    padding:1rem 5rem 1rem 5rem;
+    background: rgb(206,220,231); /* Old browsers */
+    
+        border: 1px solid #333;
+        padding: 1rem;
+      
+        max-width: 100%;
+        overflow: hidden;
+    
+background: -moz-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 h1,
 h2,
@@ -128,9 +146,11 @@ header h1 {
     font-size: 20px;
 }
 
-header .icon {
-    float: left;
-    height: 65px;
+header .iconvc {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
     
 
 }
@@ -386,7 +406,7 @@ figure {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
-
+  
 }
 
 figure img,
@@ -403,7 +423,8 @@ figure iframe,
     border: 1px solid #333;
     padding: 1rem;
     border-radius: 25px;
-    align-items: center;
+    max-width: 100%;
+    overflow: hidden
 }
 
 .cards section {
