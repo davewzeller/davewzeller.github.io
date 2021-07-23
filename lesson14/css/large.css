@@ -90,6 +90,20 @@
 
         font-size: 30px;
     }
+    header .iconvc {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+     
+    
+        
+    
+    }
+    .to{
+        grid-template-columns: 1fr 1fr 1fr;
+
+
+    }
     .weather{
     color: white;
     text-decoration: none;

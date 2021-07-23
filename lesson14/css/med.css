@@ -20,6 +20,15 @@
     .board section{
         padding: .5rem;
     }
+    header .iconvc {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        width: 130px;
+    
+        
+    
+    }
     .city,
     .homepage {
         display: grid;
@@ -28,7 +37,9 @@
 
 
     }
-
+.to{
+  grid-template-columns: 1fr 1fr
+}
     figure,
     .homepage section {
         width: 245px;

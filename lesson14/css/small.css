@@ -97,7 +97,7 @@ body {
     color: white;
     text-decoration: none;
     list-style: none;
-   
+    
     display: none;
     
 
@@ -107,10 +107,10 @@ body {
     font-size: 2rem;
     padding:1rem 5rem 1rem 5rem;
     background: rgb(206,220,231); /* Old browsers */
-    
+        text-align: center;
         border: 1px solid #333;
         padding: 1rem;
-      
+        align-items: center;
         max-width: 100%;
         overflow: hidden;
     
@@ -124,11 +124,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+figure {
     font-family: "bree serif", serif;
+    
 }
 
-p {
+p, figcaption {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -148,8 +150,9 @@ header h1 {
 
 header .iconvc {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 2px;
+    width: 90px;
 
     
 
@@ -212,7 +215,9 @@ nav {
     color: white !important;
     border-radius: 25px;
 }
-
+.icon{
+    width: 150px;
+}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid blue;
@@ -391,6 +396,8 @@ body .board {
 figure {
     width: 350px;
     margin: 5px !important;
+    text-align: center;
+    background-color: #fff;
 
 }
 
@@ -424,7 +431,13 @@ figure iframe,
     padding: 1rem;
     border-radius: 25px;
     max-width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    text-align: center;
+    
+
+}
+.tDV{
+    text-align: center;
 }
 
 .cards section {
@@ -493,4 +506,17 @@ figure iframe,
     box-shadow: 7px 7px 7px 7px #767689, 7px 7px 7px 7px #989ba9;
     width: 55%;
     height: 60%;
+}
+.to{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .75rem;
+    font-weight: bold;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c0f7f7+0,d3fff2+100&0.65+0,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(192,247,247,0.65) 0%, rgba(211,255,242,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(192,247,247,0.65) 0%,rgba(211,255,242,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(192,247,247,0.65) 0%,rgba(211,255,242,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c0f7f7', endColorstr='#00d3fff2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 }
