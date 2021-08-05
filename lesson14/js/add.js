@@ -41,23 +41,10 @@ fetch(requestURL)//copy of homework
         card.appendChild(birthplace);
         card.appendChild(photo);
 
-        
 
 
         document.querySelector('div.cards').appendChild(card);//copy of homework
-        
     };
   });
 
- 
-// List View
-function listView() {
-  document.querySelector(".cards").style.display = "block";
-  document.querySelector(".cards img").style.direction = "rtl";
   
-}
-
-// Grid View
-function gridView() {
-  document.querySelector(".cards").style.display = "grid";
-}
